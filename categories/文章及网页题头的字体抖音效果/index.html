@@ -160,6 +160,11 @@
     <a href="/categories/" rel="section"><i class="fa fa-folder-open fa-fw"></i>Categories</a>
 
   </li>
+        <li class="menu-item menu-item-links">
+
+    <a href="/links/" rel="section"><i class="fa fa-glass-cheers fa-fw"></i>links</a>
+
+  </li>
         <li class="menu-item menu-item-question-answer">
 
     <a href="/Question%20answer/" rel="section"><i class="fa fa-question fa-fw"></i>Question answer</a>
@@ -596,7 +601,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       avatar     : 'mm',
       meta       : guest,
       pageSize   : '10' || 10,
-      visitor    : false,
+      visitor    : true,
       lang       : '' || 'zh-cn',
       path       : location.pathname,
       recordIP   : true,

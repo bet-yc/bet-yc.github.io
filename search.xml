@@ -1,139 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo文章markdown语法引用</title>
-    <url>/2020/04/03/hexo%E6%96%87%E7%AB%A0markdown%E8%AF%AD%E6%B3%95%E5%BC%95%E7%94%A8/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/p4ry28hU5gcztdO.jpg" alt></p>
-<!--less-->
-<a id="more"></a>
-<blockquote class="blockquote-center">
-<font size="5">   关于文章中markdown语法的引用</font>   </blockquote>
-
-
-<h1 id="markdown语法引用"><a href="#markdown语法引用" class="headerlink" title=" markdown语法引用   ~"></a><del><font size="5"> markdown语法引用 </font>  ~</del></h1><h2 id="文章字体大小及颜色设计"><a href="#文章字体大小及颜色设计" class="headerlink" title="文章字体大小及颜色设计"></a>文章字体大小及颜色设计</h2><p>效果：<br><font color="#FF0000"> hello</font>  </p>
-<p><font size="5"> hello</font>     </p>
-<p><font size="5" color="#FF0000">hello </font>    </p>
-<center>hello此效果为居中</center> 
-
-
-<p>代码：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font color=<span class="string">"#FF0000"</span>&gt; hello &lt;/font&gt;    </span><br><span class="line">&lt;font size=5&gt; hello &lt;/font&gt;     </span><br><span class="line">&lt;font size=5 color=<span class="string">"#FF0000"</span>&gt;hello &lt;/font&gt;    </span><br><span class="line">&lt;center&gt;hello&lt;/center&gt;</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="标题字体设计"><a href="#标题字体设计" class="headerlink" title="标题字体设计"></a>标题字体设计</h2><p>效果：</p>
-<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><p>代码：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这是一级标题</span></span><br><span class="line"><span class="comment">## 这是二级标题</span></span><br><span class="line"><span class="comment">### 这是三级标题</span></span><br><span class="line"><span class="comment">#### 这是四级标题</span></span><br><span class="line"><span class="comment">##### 这是五级标题</span></span><br><span class="line"><span class="comment">###### 这是六级标题</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="字体特效"><a href="#字体特效" class="headerlink" title="字体特效"></a>字体特效</h2><p>效果：</p>
-<p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em><br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
-<p>代码：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
-
-<h2 id="超链接引用"><a href="#超链接引用" class="headerlink" title="超链接引用"></a>超链接引用</h2><p>效果：</p>
-<p><a href="https://bet-yc.gitee.io" target="_blank" rel="noopener">bet blog</a></p>
-<p>代码：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[超链接名](超链接网址)</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="文章添加表格"><a href="#文章添加表格" class="headerlink" title="文章添加表格"></a>文章添加表格</h2><p>效果：</p>
-<table>
-<thead>
-<tr>
-<th align="left">左对齐标题</th>
-<th align="right">右对齐标题</th>
-<th align="center">居中对齐标题</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">短文本</td>
-<td align="right">中等文本</td>
-<td align="center">稍微长一点的文本</td>
-</tr>
-<tr>
-<td align="left">稍微长一点的文本</td>
-<td align="right">短文本</td>
-<td align="center">中等文本</td>
-</tr>
-</tbody></table>
-<p>代码：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">| 左对齐标题 | 右对齐标题 | 居中对齐标题 |</span><br><span class="line">| :------| ------: | :------: |</span><br><span class="line">| 短文本 | 中等文本 | 稍微长一点的文本 |</span><br><span class="line">| 稍微长一点的文本 | 短文本 | 中等文本 |</span><br></pre></td></tr></table></figure>
-
-
-<h1 id="文章中添加文字背景颜色色块"><a href="#文章中添加文字背景颜色色块" class="headerlink" title="文章中添加文字背景颜色色块"></a>文章中添加文字背景颜色色块</h1><p>代码添加在<span id="inline-green"> /themes/next/source/css/custom/custom.styl</span>中  <strong>如果没有这个文档</strong></p>
-<p>就放在<span id="inline-green">/themes/next/source/css/main.styl</span>中</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">// 颜色块-黄</span><br><span class="line">span<span class="comment">#inline-yellow &#123;</span></span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:<span class="comment">#fff;</span></span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: <span class="comment">#f0ad4e;</span></span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-绿</span><br><span class="line">span<span class="comment">#inline-green &#123;</span></span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:<span class="comment">#fff;</span></span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: <span class="comment">#5cb85c;</span></span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-蓝</span><br><span class="line">span<span class="comment">#inline-blue &#123;</span></span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:<span class="comment">#fff;</span></span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: <span class="comment">#2780e3;</span></span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-紫</span><br><span class="line">span<span class="comment">#inline-purple &#123;</span></span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:<span class="comment">#fff;</span></span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: <span class="comment">#9954bb;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="需要使用时就在文中放下面的代码把中间的文字改了就行"><a href="#需要使用时就在文中放下面的代码把中间的文字改了就行" class="headerlink" title="需要使用时就在文中放下面的代码把中间的文字改了就行"></a>需要使用时就在文中放下面的代码把中间的文字改了就行</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;span id=<span class="string">"inline-blue"</span>&gt; 站点配置文件 &lt;/span&gt;</span><br><span class="line">&lt;span id=<span class="string">"inline-purple"</span>&gt; 主题配置文件 &lt;/span&gt;</span><br><span class="line">&lt;span id=<span class="string">"inline-yellow"</span>&gt; 站点配置文件 &lt;/span&gt;</span><br><span class="line">&lt;span id=<span class="string">"inline-green"</span>&gt; 主题配置文件 &lt;/span&gt;</span><br></pre></td></tr></table></figure>
-
-
-<blockquote class="blockquote-center"><font color="    #8B008B"><span class="my-face">ღゝ◡╹)ノ♡--未完待续--</span></font> </blockquote>
-]]></content>
-      <categories>
-        <category>hexo博客添加配置</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020年如何免费搭建个人博客网站(视频教程)</title>
-    <url>/2020/04/15/2020%E5%B9%B4%E5%A6%82%E4%BD%95%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B)/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/2J8EsqAefWbZa19.png" alt></p>
-<!--less-->
-<a id="more"></a>
-
-
-<blockquote class="blockquote-center">
-<font size="5"> <font color="#FFD700"><span class="my-face">2020年如何免费搭建属于你自己的个人博客网站？</span></font>   </font>  </blockquote>
-
-
-<h1 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h1><p> <a href="https://www.bilibili.com/video/BV1tZ4y1j7bn" target="_blank" rel="noopener">点我观看教学视频</a></p>
-<h1 id="文字教程和软件下载"><a href="#文字教程和软件下载" class="headerlink" title="文字教程和软件下载"></a>文字教程和软件下载</h1><p><a href="https://bet-yc.gitee.io/2020/04/15/搭建个人博客网站文字教程内含所需代码/#more" target="_blank" rel="noopener">点我观看文字教程获取所需要的代码及软件</a></p>
-    
-
-
-
-]]></content>
-      <categories>
-        <category>hexo博客搭建</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo添加来比力评论</title>
-    <url>/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/gmvFaYdXM5xPKns.jpg" alt></p>
-<!--less-->
-
-<a id="more"></a>
-<blockquote class="blockquote-center">
-<font size="5">  给你的博客添加评论功能 </font>   </blockquote>
-
-
-<h1 id="添加来必力评论功能"><a href="#添加来必力评论功能" class="headerlink" title="添加来必力评论功能"></a>添加来必力评论功能</h1><p><a href="https://livere.com/" target="_blank" rel="noopener">来必力</a></p>
-<p>这个是目前最直接的只需要注册就能用的评论系统</p>
-<h2 id="第一步：点击上面的言必力进入官网"><a href="#第一步：点击上面的言必力进入官网" class="headerlink" title="第一步：点击上面的言必力进入官网"></a>第一步：点击上面的言必力进入官网</h2><p>点击最上面的安装——————免费—————现在安装</p>
-<p><img src="/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/1.png" alt></p>
-<p>点击来比力注册（QQ邮箱即可注册）————完成注册后可在右上角登录账户—————登录后再次点击免费现在安装</p>
-<p><img src="/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/2.png" alt></p>
-<p>进入此页面后打开左下角的代码管理然后将红色方框中的代码复制下来</p>
-<p><img src="/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/3.png" alt></p>
-<p>打开主题文件的_config.yml用 ctrl+F 搜索 uid  将你复制的代码放在后面就完成了</p>
-<p><img src="/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/4.png" alt></p>
-]]></content>
-      <categories>
-        <category>hexo博客添加配置</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>实用软件和网站分享合集</title>
     <url>/2020/04/02/first/</url>
     <content><![CDATA[<p><strong><blockquote class="blockquote-center">今天应做的事没有做，明天再早也是耽误了</blockquote></strong></p>
@@ -187,64 +54,51 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo添加点击效果共3种</title>
-    <url>/2020/04/08/hexo%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E6%95%88%E6%9E%9C%E5%85%B13%E7%A7%8D/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/fuRrDXl5ne2KmP4.png" alt></p>
+    <title>2020年如何免费搭建个人博客网站(视频教程)</title>
+    <url>/2020/04/15/2020%E5%B9%B4%E5%A6%82%E4%BD%95%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B)/</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/2J8EsqAefWbZa19.png" alt></p>
 <!--less-->
 <a id="more"></a>
 
 
-
 <blockquote class="blockquote-center">
-<font size="5"> 添加网页点击效果（爱心/英语单词/核心价值观） </font>   </blockquote>
+<font size="5"> <font color="#FFD700"><span class="my-face">2020年如何免费搭建属于你自己的个人博客网站？</span></font>   </font>  </blockquote>
 
 
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>安装过程遇到问题请在下方评论区留言</p>
-<h1 id="添加英语4级单词点击效果"><a href="#添加英语4级单词点击效果" class="headerlink" title="添加英语4级单词点击效果"></a>添加英语4级单词点击效果</h1><p>这里我使用的是hexo的next主题</p>
-<p>具体操作如下</p>
-<h2 id="创建cet4-js文件"><a href="#创建cet4-js文件" class="headerlink" title="创建cet4.js文件"></a>创建cet4.js文件</h2><p>在/themes/next/source/js/src下新建文件cet4.js，打开链接复制粘贴代码。</p>
-<p>没有src文档的话就新建一个。</p>
-<p><a href="https://github.com/flymysql/CET4-Mouse-click-effects/blob/master/cet4.js" target="_blank" rel="noopener">点我复制js代码链接</a></p>
-<h2 id="修改-layout-swig"><a href="#修改-layout-swig" class="headerlink" title="修改_layout.swig"></a>修改_layout.swig</h2><p>在\themes\next\layout_layout.swig文件的末尾添加：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!-- 页面点击cet4--&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/js/src/cet4.js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h1><p> <a href="https://www.bilibili.com/video/BV1tZ4y1j7bn" target="_blank" rel="noopener">点我观看教学视频</a></p>
+<h1 id="文字教程和软件下载"><a href="#文字教程和软件下载" class="headerlink" title="文字教程和软件下载"></a>文字教程和软件下载</h1><p><a href="https://bet-yc.gitee.io/2020/04/15/搭建个人博客网站文字教程内含所需代码/#more" target="_blank" rel="noopener">点我观看文字教程获取所需要的代码及软件</a></p>
+    
 
-<h2 id="最后一步，部署完成后打开你的网站点击一下就能看到效果了"><a href="#最后一步，部署完成后打开你的网站点击一下就能看到效果了" class="headerlink" title="最后一步，部署完成后打开你的网站点击一下就能看到效果了"></a>最后一步，部署完成后打开你的网站点击一下就能看到效果了</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="添加核心价值观富强民主文字点击效果"><a href="#添加核心价值观富强民主文字点击效果" class="headerlink" title="添加核心价值观富强民主文字点击效果"></a>添加核心价值观富强民主文字点击效果</h1><p>具体操作如下</p>
-<h2 id="创建text-js文件"><a href="#创建text-js文件" class="headerlink" title="创建text.js文件"></a>创建text.js文件</h2><p>在/themes/next/source/js/src下新建文件text.js，打开链接复制粘贴代码。</p>
-<p>没有src文档的话就新建一个。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var a_idx = 0;</span><br><span class="line">jQuery(document).ready(<span class="keyword">function</span>($) &#123;</span><br><span class="line">    $(<span class="string">"body"</span>).click(<span class="keyword">function</span>(e) &#123;</span><br><span class="line">        var a = new Array</span><br><span class="line">        (<span class="string">"富强"</span>, <span class="string">"民主"</span>, <span class="string">"文明"</span>, <span class="string">"和谐"</span>, <span class="string">"自由"</span>, <span class="string">"平等"</span>, <span class="string">"公正"</span>, <span class="string">"法治"</span>, <span class="string">"爱国"</span>, <span class="string">"敬业"</span>, <span class="string">"诚信"</span>, <span class="string">"友善"</span>);</span><br><span class="line">        var <span class="variable">$i</span> = $(<span class="string">"&lt;span/&gt;"</span>).text(a[a_idx]);</span><br><span class="line">        a_idx = (a_idx + 1) % a.length;</span><br><span class="line">        var x = e.pageX,</span><br><span class="line">        y = e.pageY;</span><br><span class="line">        <span class="variable">$i</span>.css(&#123;</span><br><span class="line">            <span class="string">"z-index"</span>: 5,</span><br><span class="line">            <span class="string">"top"</span>: y - 20,</span><br><span class="line">            <span class="string">"left"</span>: x,</span><br><span class="line">            <span class="string">"position"</span>: <span class="string">"absolute"</span>,</span><br><span class="line">            <span class="string">"font-weight"</span>: <span class="string">"bold"</span>,</span><br><span class="line">            <span class="string">"color"</span>: <span class="string">"#778899"</span></span><br><span class="line">        &#125;);</span><br><span class="line">        $(<span class="string">"body"</span>).append(<span class="variable">$i</span>);</span><br><span class="line">        <span class="variable">$i</span>.animate(&#123;</span><br><span class="line">            <span class="string">"top"</span>: y - 180,</span><br><span class="line">            <span class="string">"opacity"</span>: 0</span><br><span class="line">        &#125;,</span><br><span class="line">            3000,</span><br><span class="line">            <span class="function"><span class="title">function</span></span>() &#123;</span><br><span class="line">                <span class="variable">$i</span>.remove();</span><br><span class="line">            &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">    setTimeout(<span class="string">'delay()'</span>, 2000);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">delay</span></span>() &#123;</span><br><span class="line">    $(<span class="string">".buryit"</span>).removeAttr(<span class="string">"onclick"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="修改-layout-swig-1"><a href="#修改-layout-swig-1" class="headerlink" title="修改_layout.swig"></a>修改_layout.swig</h2><p>在\themes\next\layout_layout.swig文件的末尾添加：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&lt;!--单击显示文字--&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/js/src/text.js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<h2 id="最后一步，部署完成后打开你的网站点击一下就能看到效果了-1"><a href="#最后一步，部署完成后打开你的网站点击一下就能看到效果了-1" class="headerlink" title="最后一步，部署完成后打开你的网站点击一下就能看到效果了"></a>最后一步，部署完成后打开你的网站点击一下就能看到效果了</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="添加爱心点击效果"><a href="#添加爱心点击效果" class="headerlink" title="添加爱心点击效果"></a>添加爱心点击效果</h1><p>这里我使用的是hexo的next主题</p>
-<p>具体操作如下</p>
-<!--more-->
-
-
-<h2 id="创建爱心js文件"><a href="#创建爱心js文件" class="headerlink" title="创建爱心js文件"></a>创建爱心js文件</h2><p>在/themes/next/source/js/src下新建文件love.js，并复制粘贴如下代码。</p>
-<p>没有src文档的话就新建一个。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">!<span class="keyword">function</span>(e,t,a)&#123;<span class="keyword">function</span> <span class="function"><span class="title">n</span></span>()&#123;c(<span class="string">".heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;"</span>),o(),r()&#125;<span class="keyword">function</span> <span class="function"><span class="title">r</span></span>()&#123;<span class="keyword">for</span>(var e=0;e&lt;d.length;e++)d[e].alpha&lt;=0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+=.004,d[e].alpha-=.013,d[e].el.style.cssText=<span class="string">"left:"</span>+d[e].x+<span class="string">"px;top:"</span>+d[e].y+<span class="string">"px;opacity:"</span>+d[e].alpha+<span class="string">";transform:scale("</span>+d[e].scale+<span class="string">","</span>+d[e].scale+<span class="string">") rotate(45deg);background:"</span>+d[e].color+<span class="string">";z-index:99999"</span>);requestAnimationFrame(r)&#125;<span class="keyword">function</span> <span class="function"><span class="title">o</span></span>()&#123;var t=<span class="string">"function"</span>==typeof e.onclick&amp;&amp;e.onclick;e.onclick=<span class="keyword">function</span>(e)&#123;t&amp;&amp;t(),i(e)&#125;&#125;<span class="keyword">function</span> i(e)&#123;var a=t.createElement(<span class="string">"div"</span>);a.className=<span class="string">"heart"</span>,d.push(&#123;el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()&#125;),t.body.appendChild(a)&#125;<span class="keyword">function</span> c(e)&#123;var a=t.createElement(<span class="string">"style"</span>);a.type=<span class="string">"text/css"</span>;try&#123;a.appendChild(t.createTextNode(e))&#125;catch(t)&#123;a.styleSheet.cssText=e&#125;t.getElementsByTagName(<span class="string">"head"</span>)[0].appendChild(a)&#125;<span class="keyword">function</span> <span class="function"><span class="title">s</span></span>()&#123;<span class="built_in">return</span><span class="string">"rgb("</span>+~~(255*Math.random())+<span class="string">","</span>+~~(255*Math.random())+<span class="string">","</span>+~~(255*Math.random())+<span class="string">")"</span>&#125;var d=[];e.requestAnimationFrame=<span class="function"><span class="title">function</span></span>()&#123;<span class="built_in">return</span> e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||<span class="keyword">function</span>(e)&#123;setTimeout(e,1e3/60)&#125;&#125;(),n()&#125;(window,document);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="修改-layout-swig-2"><a href="#修改-layout-swig-2" class="headerlink" title="修改_layout.swig"></a>修改_layout.swig</h2><p>在\themes\next\layout_layout.swig文件的末尾添加：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!-- 页面点击小红心，在末尾添加，避免找不到 --&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/js/src/love.js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<h2 id="最后一步，部署完成后打开你的网站点击一下就能看到爱心了"><a href="#最后一步，部署完成后打开你的网站点击一下就能看到爱心了" class="headerlink" title="最后一步，部署完成后打开你的网站点击一下就能看到爱心了"></a>最后一步，部署完成后打开你的网站点击一下就能看到爱心了</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
 
 
 ]]></content>
       <categories>
-        <category>hexo博客添加配置</category>
+        <category>hexo博客搭建</category>
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo网页题头文章标题的字体抖音效果</title>
+    <url>/2020/04/18/%E6%A0%87%E9%A2%98%E6%A0%8F%E7%89%B9%E6%95%88/</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/18/PjVQO17nMy9Al4L.png" alt></p>
+<!--less-->
+<a id="more"></a>
+
+<h2 id="当鼠标放在标题上就能看到效果"><a href="#当鼠标放在标题上就能看到效果" class="headerlink" title="当鼠标放在标题上就能看到效果"></a>当鼠标放在标题上就能看到效果</h2><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>在<span id="inline-green">/themes/next/source/css/custom/custom.styl</span>中添加下面的代码即可</p>
+<p><strong>如何没有custom.styl这个文档</strong></p>
+<p>就在<span id="inline-green">/themes/next/source/css/main.styl</span>中添加下面的代码</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/*标题抖动效果*/</span><br><span class="line">.site-title:hover, .post-title:hover &#123;</span><br><span class="line">    animation: shake-it .5s reverse infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);</span><br><span class="line">&#125;</span><br><span class="line">@keyframes shake-it &#123;</span><br><span class="line">    0% &#123;</span><br><span class="line">        text-shadow: 0 0 rgba(0, 255, 255, .5), 0 0 rgba(255, 0, 0, .5);</span><br><span class="line">    &#125;</span><br><span class="line">    25% &#123;</span><br><span class="line">        text-shadow: -2px 0 rgba(0, 255, 255, .5), 2px 0 rgba(255, 0, 0, .5);</span><br><span class="line">    &#125;</span><br><span class="line">    50% &#123;</span><br><span class="line">        text-shadow: -5px 0 rgba(0, 255, 255, .5), 3px 0 rgba(255, 0, 0, .5);</span><br><span class="line">    &#125;</span><br><span class="line">    100% &#123;</span><br><span class="line">        text-shadow: 3px 0 rgba(0, 255, 255, .5), 5px 0 rgba(255, 0, 0, .5);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="最后一步，部署完成后打开你的网站试一试就能看到效果了"><a href="#最后一步，部署完成后打开你的网站试一试就能看到效果了" class="headerlink" title="最后一步，部署完成后打开你的网站试一试就能看到效果了"></a>最后一步，部署完成后打开你的网站试一试就能看到效果了</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>文章及网页题头的字体抖音效果</category>
+      </categories>
+      <tags>
+        <tag>hexo标题字体抖音效果</tag>
       </tags>
   </entry>
   <entry>
@@ -268,6 +122,65 @@
 ]]></content>
       <categories>
         <category>网页雪花飘落特效</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo添加live2d动画人物</title>
+    <url>/2020/04/15/%E6%B7%BB%E5%8A%A0live2d%E5%8A%A8%E7%94%BB%E4%BA%BA%E7%89%A9/</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/YcoRzTPS25AhbOu.png" alt></p>
+<!--less-->
+<a id="more"></a>
+
+<blockquote class="blockquote-center">
+<font size="5"> 添加live2d看板娘 </font>   </blockquote>
+
+
+<h1 id="添加live2d看板娘"><a href="#添加live2d看板娘" class="headerlink" title="添加live2d看板娘"></a>添加live2d看板娘</h1><h2 id="安装live2d"><a href="#安装live2d" class="headerlink" title="安装live2d"></a>安装live2d</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
+
+<h2 id="打开live2d"><a href="#打开live2d" class="headerlink" title="打开live2d"></a>打开live2d</h2><p>进入网站配置文件_confing.yml内，在最下面添加下面内容</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span></span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-shizuku</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="安装你喜欢的动画模型"><a href="#安装你喜欢的动画模型" class="headerlink" title="安装你喜欢的动画模型"></a>安装你喜欢的动画模型</h2><p>下面是课桌姑娘的安装代码</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install live2d-widget-model-shizuku</span><br></pre></td></tr></table></figure>
+
+<p>接着hexo cl &amp;&amp; hexo s 本地右下角就能看到你的看板娘了</p>
+<h2 id="最后想要更换其他样式的人物则需要在下载模型后改动-use："><a href="#最后想要更换其他样式的人物则需要在下载模型后改动-use：" class="headerlink" title="最后想要更换其他样式的人物则需要在下载模型后改动 use："></a>最后想要更换其他样式的人物则需要在下载模型后改动 use：</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span></span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: 这里这里改动</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>hexo博客添加配置</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo添加来比力评论</title>
+    <url>/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/gmvFaYdXM5xPKns.jpg" alt></p>
+<!--less-->
+
+<a id="more"></a>
+<blockquote class="blockquote-center">
+<font size="5">  给你的博客添加评论功能 </font>   </blockquote>
+
+
+<h1 id="添加来必力评论功能"><a href="#添加来必力评论功能" class="headerlink" title="添加来必力评论功能"></a>添加来必力评论功能</h1><p><a href="https://livere.com/" target="_blank" rel="noopener">来必力</a></p>
+<p>这个是目前最直接的只需要注册就能用的评论系统</p>
+<h2 id="第一步：点击上面的言必力进入官网"><a href="#第一步：点击上面的言必力进入官网" class="headerlink" title="第一步：点击上面的言必力进入官网"></a>第一步：点击上面的言必力进入官网</h2><p>点击最上面的安装——————免费—————现在安装</p>
+<p><img src="/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/1.png" alt></p>
+<p>点击来比力注册（QQ邮箱即可注册）————完成注册后可在右上角登录账户—————登录后再次点击免费现在安装</p>
+<p><img src="/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/2.png" alt></p>
+<p>进入此页面后打开左下角的代码管理然后将红色方框中的代码复制下来</p>
+<p><img src="/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/3.png" alt></p>
+<p>打开主题文件的_config.yml用 ctrl+F 搜索 uid  将你复制的代码放在后面就完成了</p>
+<p><img src="/2020/04/15/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/4.png" alt></p>
+]]></content>
+      <categories>
+        <category>hexo博客添加配置</category>
       </categories>
       <tags>
         <tag>hexo</tag>
@@ -446,49 +359,136 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo网页题头文章标题的字体抖音效果</title>
-    <url>/2020/04/18/%E6%A0%87%E9%A2%98%E6%A0%8F%E7%89%B9%E6%95%88/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/18/PjVQO17nMy9Al4L.png" alt></p>
+    <title>hexo添加点击效果共3种</title>
+    <url>/2020/04/08/hexo%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E6%95%88%E6%9E%9C%E5%85%B13%E7%A7%8D/</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/fuRrDXl5ne2KmP4.png" alt></p>
 <!--less-->
 <a id="more"></a>
 
-<h2 id="当鼠标放在标题上就能看到效果"><a href="#当鼠标放在标题上就能看到效果" class="headerlink" title="当鼠标放在标题上就能看到效果"></a>当鼠标放在标题上就能看到效果</h2><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>在<span id="inline-green">/themes/next/source/css/custom/custom.styl</span>中添加下面的代码即可</p>
-<p><strong>如何没有custom.styl这个文档</strong></p>
-<p>就在<span id="inline-green">/themes/next/source/css/main.styl</span>中添加下面的代码</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/*标题抖动效果*/</span><br><span class="line">.site-title:hover, .post-title:hover &#123;</span><br><span class="line">    animation: shake-it .5s reverse infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);</span><br><span class="line">&#125;</span><br><span class="line">@keyframes shake-it &#123;</span><br><span class="line">    0% &#123;</span><br><span class="line">        text-shadow: 0 0 rgba(0, 255, 255, .5), 0 0 rgba(255, 0, 0, .5);</span><br><span class="line">    &#125;</span><br><span class="line">    25% &#123;</span><br><span class="line">        text-shadow: -2px 0 rgba(0, 255, 255, .5), 2px 0 rgba(255, 0, 0, .5);</span><br><span class="line">    &#125;</span><br><span class="line">    50% &#123;</span><br><span class="line">        text-shadow: -5px 0 rgba(0, 255, 255, .5), 3px 0 rgba(255, 0, 0, .5);</span><br><span class="line">    &#125;</span><br><span class="line">    100% &#123;</span><br><span class="line">        text-shadow: 3px 0 rgba(0, 255, 255, .5), 5px 0 rgba(255, 0, 0, .5);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
-<h2 id="最后一步，部署完成后打开你的网站试一试就能看到效果了"><a href="#最后一步，部署完成后打开你的网站试一试就能看到效果了" class="headerlink" title="最后一步，部署完成后打开你的网站试一试就能看到效果了"></a>最后一步，部署完成后打开你的网站试一试就能看到效果了</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<font size="5"> 添加网页点击效果（爱心/英语单词/核心价值观） </font>   </blockquote>
+
+
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>安装过程遇到问题请在下方评论区留言</p>
+<h1 id="添加英语4级单词点击效果"><a href="#添加英语4级单词点击效果" class="headerlink" title="添加英语4级单词点击效果"></a>添加英语4级单词点击效果</h1><p>这里我使用的是hexo的next主题</p>
+<p>具体操作如下</p>
+<h2 id="创建cet4-js文件"><a href="#创建cet4-js文件" class="headerlink" title="创建cet4.js文件"></a>创建cet4.js文件</h2><p>在/themes/next/source/js/src下新建文件cet4.js，打开链接复制粘贴代码。</p>
+<p>没有src文档的话就新建一个。</p>
+<p><a href="https://github.com/flymysql/CET4-Mouse-click-effects/blob/master/cet4.js" target="_blank" rel="noopener">点我复制js代码链接</a></p>
+<h2 id="修改-layout-swig"><a href="#修改-layout-swig" class="headerlink" title="修改_layout.swig"></a>修改_layout.swig</h2><p>在\themes\next\layout_layout.swig文件的末尾添加：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!-- 页面点击cet4--&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/js/src/cet4.js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="最后一步，部署完成后打开你的网站点击一下就能看到效果了"><a href="#最后一步，部署完成后打开你的网站点击一下就能看到效果了" class="headerlink" title="最后一步，部署完成后打开你的网站点击一下就能看到效果了"></a>最后一步，部署完成后打开你的网站点击一下就能看到效果了</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="添加核心价值观富强民主文字点击效果"><a href="#添加核心价值观富强民主文字点击效果" class="headerlink" title="添加核心价值观富强民主文字点击效果"></a>添加核心价值观富强民主文字点击效果</h1><p>具体操作如下</p>
+<h2 id="创建text-js文件"><a href="#创建text-js文件" class="headerlink" title="创建text.js文件"></a>创建text.js文件</h2><p>在/themes/next/source/js/src下新建文件text.js，打开链接复制粘贴代码。</p>
+<p>没有src文档的话就新建一个。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">var a_idx = 0;</span><br><span class="line">jQuery(document).ready(<span class="keyword">function</span>($) &#123;</span><br><span class="line">    $(<span class="string">"body"</span>).click(<span class="keyword">function</span>(e) &#123;</span><br><span class="line">        var a = new Array</span><br><span class="line">        (<span class="string">"富强"</span>, <span class="string">"民主"</span>, <span class="string">"文明"</span>, <span class="string">"和谐"</span>, <span class="string">"自由"</span>, <span class="string">"平等"</span>, <span class="string">"公正"</span>, <span class="string">"法治"</span>, <span class="string">"爱国"</span>, <span class="string">"敬业"</span>, <span class="string">"诚信"</span>, <span class="string">"友善"</span>);</span><br><span class="line">        var <span class="variable">$i</span> = $(<span class="string">"&lt;span/&gt;"</span>).text(a[a_idx]);</span><br><span class="line">        a_idx = (a_idx + 1) % a.length;</span><br><span class="line">        var x = e.pageX,</span><br><span class="line">        y = e.pageY;</span><br><span class="line">        <span class="variable">$i</span>.css(&#123;</span><br><span class="line">            <span class="string">"z-index"</span>: 5,</span><br><span class="line">            <span class="string">"top"</span>: y - 20,</span><br><span class="line">            <span class="string">"left"</span>: x,</span><br><span class="line">            <span class="string">"position"</span>: <span class="string">"absolute"</span>,</span><br><span class="line">            <span class="string">"font-weight"</span>: <span class="string">"bold"</span>,</span><br><span class="line">            <span class="string">"color"</span>: <span class="string">"#778899"</span></span><br><span class="line">        &#125;);</span><br><span class="line">        $(<span class="string">"body"</span>).append(<span class="variable">$i</span>);</span><br><span class="line">        <span class="variable">$i</span>.animate(&#123;</span><br><span class="line">            <span class="string">"top"</span>: y - 180,</span><br><span class="line">            <span class="string">"opacity"</span>: 0</span><br><span class="line">        &#125;,</span><br><span class="line">            3000,</span><br><span class="line">            <span class="function"><span class="title">function</span></span>() &#123;</span><br><span class="line">                <span class="variable">$i</span>.remove();</span><br><span class="line">            &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">    setTimeout(<span class="string">'delay()'</span>, 2000);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="function"><span class="title">delay</span></span>() &#123;</span><br><span class="line">    $(<span class="string">".buryit"</span>).removeAttr(<span class="string">"onclick"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="修改-layout-swig-1"><a href="#修改-layout-swig-1" class="headerlink" title="修改_layout.swig"></a>修改_layout.swig</h2><p>在\themes\next\layout_layout.swig文件的末尾添加：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&lt;!--单击显示文字--&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/js/src/text.js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="最后一步，部署完成后打开你的网站点击一下就能看到效果了-1"><a href="#最后一步，部署完成后打开你的网站点击一下就能看到效果了-1" class="headerlink" title="最后一步，部署完成后打开你的网站点击一下就能看到效果了"></a>最后一步，部署完成后打开你的网站点击一下就能看到效果了</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="添加爱心点击效果"><a href="#添加爱心点击效果" class="headerlink" title="添加爱心点击效果"></a>添加爱心点击效果</h1><p>这里我使用的是hexo的next主题</p>
+<p>具体操作如下</p>
+<!--more-->
+
+
+<h2 id="创建爱心js文件"><a href="#创建爱心js文件" class="headerlink" title="创建爱心js文件"></a>创建爱心js文件</h2><p>在/themes/next/source/js/src下新建文件love.js，并复制粘贴如下代码。</p>
+<p>没有src文档的话就新建一个。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">!<span class="keyword">function</span>(e,t,a)&#123;<span class="keyword">function</span> <span class="function"><span class="title">n</span></span>()&#123;c(<span class="string">".heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;"</span>),o(),r()&#125;<span class="keyword">function</span> <span class="function"><span class="title">r</span></span>()&#123;<span class="keyword">for</span>(var e=0;e&lt;d.length;e++)d[e].alpha&lt;=0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+=.004,d[e].alpha-=.013,d[e].el.style.cssText=<span class="string">"left:"</span>+d[e].x+<span class="string">"px;top:"</span>+d[e].y+<span class="string">"px;opacity:"</span>+d[e].alpha+<span class="string">";transform:scale("</span>+d[e].scale+<span class="string">","</span>+d[e].scale+<span class="string">") rotate(45deg);background:"</span>+d[e].color+<span class="string">";z-index:99999"</span>);requestAnimationFrame(r)&#125;<span class="keyword">function</span> <span class="function"><span class="title">o</span></span>()&#123;var t=<span class="string">"function"</span>==typeof e.onclick&amp;&amp;e.onclick;e.onclick=<span class="keyword">function</span>(e)&#123;t&amp;&amp;t(),i(e)&#125;&#125;<span class="keyword">function</span> i(e)&#123;var a=t.createElement(<span class="string">"div"</span>);a.className=<span class="string">"heart"</span>,d.push(&#123;el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()&#125;),t.body.appendChild(a)&#125;<span class="keyword">function</span> c(e)&#123;var a=t.createElement(<span class="string">"style"</span>);a.type=<span class="string">"text/css"</span>;try&#123;a.appendChild(t.createTextNode(e))&#125;catch(t)&#123;a.styleSheet.cssText=e&#125;t.getElementsByTagName(<span class="string">"head"</span>)[0].appendChild(a)&#125;<span class="keyword">function</span> <span class="function"><span class="title">s</span></span>()&#123;<span class="built_in">return</span><span class="string">"rgb("</span>+~~(255*Math.random())+<span class="string">","</span>+~~(255*Math.random())+<span class="string">","</span>+~~(255*Math.random())+<span class="string">")"</span>&#125;var d=[];e.requestAnimationFrame=<span class="function"><span class="title">function</span></span>()&#123;<span class="built_in">return</span> e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||<span class="keyword">function</span>(e)&#123;setTimeout(e,1e3/60)&#125;&#125;(),n()&#125;(window,document);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="修改-layout-swig-2"><a href="#修改-layout-swig-2" class="headerlink" title="修改_layout.swig"></a>修改_layout.swig</h2><p>在\themes\next\layout_layout.swig文件的末尾添加：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;!-- 页面点击小红心，在末尾添加，避免找不到 --&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/js/src/love.js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="最后一步，部署完成后打开你的网站点击一下就能看到爱心了"><a href="#最后一步，部署完成后打开你的网站点击一下就能看到爱心了" class="headerlink" title="最后一步，部署完成后打开你的网站点击一下就能看到爱心了"></a>最后一步，部署完成后打开你的网站点击一下就能看到爱心了</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
+
+
 ]]></content>
       <categories>
-        <category>文章及网页题头的字体抖音效果</category>
+        <category>hexo博客添加配置</category>
       </categories>
       <tags>
-        <tag>hexo标题字体抖音效果</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
-    <title>hexo添加live2d动画人物</title>
-    <url>/2020/04/15/%E6%B7%BB%E5%8A%A0live2d%E5%8A%A8%E7%94%BB%E4%BA%BA%E7%89%A9/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/YcoRzTPS25AhbOu.png" alt></p>
+    <title>hexo文章markdown语法引用</title>
+    <url>/2020/04/03/hexo%E6%96%87%E7%AB%A0markdown%E8%AF%AD%E6%B3%95%E5%BC%95%E7%94%A8/</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/p4ry28hU5gcztdO.jpg" alt></p>
 <!--less-->
 <a id="more"></a>
-
 <blockquote class="blockquote-center">
-<font size="5"> 添加live2d看板娘 </font>   </blockquote>
+<font size="5">   关于文章中markdown语法的引用</font>   </blockquote>
 
 
-<h1 id="添加live2d看板娘"><a href="#添加live2d看板娘" class="headerlink" title="添加live2d看板娘"></a>添加live2d看板娘</h1><h2 id="安装live2d"><a href="#安装live2d" class="headerlink" title="安装live2d"></a>安装live2d</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
+<h1 id="markdown语法引用"><a href="#markdown语法引用" class="headerlink" title=" markdown语法引用   ~"></a><del><font size="5"> markdown语法引用 </font>  ~</del></h1><h2 id="文章字体大小及颜色设计"><a href="#文章字体大小及颜色设计" class="headerlink" title="文章字体大小及颜色设计"></a>文章字体大小及颜色设计</h2><p>效果：<br><font color="#FF0000"> hello</font>  </p>
+<p><font size="5"> hello</font>     </p>
+<p><font size="5" color="#FF0000">hello </font>    </p>
+<center>hello此效果为居中</center> 
 
-<h2 id="打开live2d"><a href="#打开live2d" class="headerlink" title="打开live2d"></a>打开live2d</h2><p>进入网站配置文件_confing.yml内，在最下面添加下面内容</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span></span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-shizuku</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="安装你喜欢的动画模型"><a href="#安装你喜欢的动画模型" class="headerlink" title="安装你喜欢的动画模型"></a>安装你喜欢的动画模型</h2><p>下面是课桌姑娘的安装代码</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install live2d-widget-model-shizuku</span><br></pre></td></tr></table></figure>
+<p>代码：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;font color=<span class="string">"#FF0000"</span>&gt; hello &lt;/font&gt;    </span><br><span class="line">&lt;font size=5&gt; hello &lt;/font&gt;     </span><br><span class="line">&lt;font size=5 color=<span class="string">"#FF0000"</span>&gt;hello &lt;/font&gt;    </span><br><span class="line">&lt;center&gt;hello&lt;/center&gt;</span><br></pre></td></tr></table></figure>
 
-<p>接着hexo cl &amp;&amp; hexo s 本地右下角就能看到你的看板娘了</p>
-<h2 id="最后想要更换其他样式的人物则需要在下载模型后改动-use："><a href="#最后想要更换其他样式的人物则需要在下载模型后改动-use：" class="headerlink" title="最后想要更换其他样式的人物则需要在下载模型后改动 use："></a>最后想要更换其他样式的人物则需要在下载模型后改动 use：</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span></span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: 这里这里改动</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 
+<h2 id="标题字体设计"><a href="#标题字体设计" class="headerlink" title="标题字体设计"></a>标题字体设计</h2><p>效果：</p>
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><p>代码：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这是一级标题</span></span><br><span class="line"><span class="comment">## 这是二级标题</span></span><br><span class="line"><span class="comment">### 这是三级标题</span></span><br><span class="line"><span class="comment">#### 这是四级标题</span></span><br><span class="line"><span class="comment">##### 这是五级标题</span></span><br><span class="line"><span class="comment">###### 这是六级标题</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="字体特效"><a href="#字体特效" class="headerlink" title="字体特效"></a>字体特效</h2><p>效果：</p>
+<p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em><br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p>
+<p>代码：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
+
+<h2 id="超链接引用"><a href="#超链接引用" class="headerlink" title="超链接引用"></a>超链接引用</h2><p>效果：</p>
+<p><a href="https://bet-yc.gitee.io" target="_blank" rel="noopener">bet blog</a></p>
+<p>代码：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[超链接名](超链接网址)</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="文章添加表格"><a href="#文章添加表格" class="headerlink" title="文章添加表格"></a>文章添加表格</h2><p>效果：</p>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐标题</th>
+<th align="right">右对齐标题</th>
+<th align="center">居中对齐标题</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">短文本</td>
+<td align="right">中等文本</td>
+<td align="center">稍微长一点的文本</td>
+</tr>
+<tr>
+<td align="left">稍微长一点的文本</td>
+<td align="right">短文本</td>
+<td align="center">中等文本</td>
+</tr>
+</tbody></table>
+<p>代码：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">| 左对齐标题 | 右对齐标题 | 居中对齐标题 |</span><br><span class="line">| :------| ------: | :------: |</span><br><span class="line">| 短文本 | 中等文本 | 稍微长一点的文本 |</span><br><span class="line">| 稍微长一点的文本 | 短文本 | 中等文本 |</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="文章中添加文字背景颜色色块"><a href="#文章中添加文字背景颜色色块" class="headerlink" title="文章中添加文字背景颜色色块"></a>文章中添加文字背景颜色色块</h1><p>代码添加在<span id="inline-green"> /themes/next/source/css/custom/custom.styl</span>中  <strong>如果没有这个文档</strong></p>
+<p>就放在<span id="inline-green">/themes/next/source/css/main.styl</span>中</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">// 颜色块-黄</span><br><span class="line">span<span class="comment">#inline-yellow &#123;</span></span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:<span class="comment">#fff;</span></span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: <span class="comment">#f0ad4e;</span></span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-绿</span><br><span class="line">span<span class="comment">#inline-green &#123;</span></span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:<span class="comment">#fff;</span></span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: <span class="comment">#5cb85c;</span></span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-蓝</span><br><span class="line">span<span class="comment">#inline-blue &#123;</span></span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:<span class="comment">#fff;</span></span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: <span class="comment">#2780e3;</span></span><br><span class="line">&#125;</span><br><span class="line">// 颜色块-紫</span><br><span class="line">span<span class="comment">#inline-purple &#123;</span></span><br><span class="line">display:inline;</span><br><span class="line">padding:.2em .6em .3em;</span><br><span class="line">font-size:80%;</span><br><span class="line">font-weight:bold;</span><br><span class="line">line-height:1;</span><br><span class="line">color:<span class="comment">#fff;</span></span><br><span class="line">text-align:center;</span><br><span class="line">white-space:nowrap;</span><br><span class="line">vertical-align:baseline;</span><br><span class="line">border-radius:0;</span><br><span class="line">background-color: <span class="comment">#9954bb;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="需要使用时就在文中放下面的代码把中间的文字改了就行"><a href="#需要使用时就在文中放下面的代码把中间的文字改了就行" class="headerlink" title="需要使用时就在文中放下面的代码把中间的文字改了就行"></a>需要使用时就在文中放下面的代码把中间的文字改了就行</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;span id=<span class="string">"inline-blue"</span>&gt; 站点配置文件 &lt;/span&gt;</span><br><span class="line">&lt;span id=<span class="string">"inline-purple"</span>&gt; 主题配置文件 &lt;/span&gt;</span><br><span class="line">&lt;span id=<span class="string">"inline-yellow"</span>&gt; 站点配置文件 &lt;/span&gt;</span><br><span class="line">&lt;span id=<span class="string">"inline-green"</span>&gt; 主题配置文件 &lt;/span&gt;</span><br></pre></td></tr></table></figure>
+
+
+<blockquote class="blockquote-center"><font color="    #8B008B"><span class="my-face">ღゝ◡╹)ノ♡--未完待续--</span></font> </blockquote>
 ]]></content>
       <categories>
         <category>hexo博客添加配置</category>
