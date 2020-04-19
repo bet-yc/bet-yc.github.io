@@ -1,63 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>计时器</title>
-    <url>/2020/04/19/%E8%AE%A1%E6%97%B6%E5%99%A8/</url>
-    <content><![CDATA[<p><strong><center><span class="my-face">计时器</span><center></center></center></strong> </p>
-<p><strong><center>试试你可以停在6.666嘛！我最好记录6.660🙌<center></center></center></strong> </p>
-<div class="timer_main">
-    <input id="start" name="controls" type="radio">
-    <input id="stop" name="controls" type="radio">
-    <input id="reset" name="controls" type="radio">
-    <div class="timer">
-        <div class="cell">
-            <div class="numbers tenhour moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell">
-            <div class="numbers hour moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell divider"><div class="numbers">:</div></div>
-        <div class="cell">
-            <div class="numbers tenminute movesix">0 1 2 3 4 5 6</div>
-        </div>
-        <div class="cell">
-            <div class="numbers minute moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell divider"><div class="numbers">:</div></div>
-        <div class="cell">
-            <div class="numbers tensecond movesix">0 1 2 3 4 5 6</div>
-        </div>
-        <div class="cell">
-            <div class="numbers second moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell divider"><div class="numbers">:</div></div>
-        <div class="cell">
-            <div class="numbers milisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell">
-            <div class="numbers tenmilisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell">
-            <div class="numbers hundredmilisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-    </div>
-    <!-- Lables for the controls -->
-    <div id="timer_controls">
-        <label for="start">开始</label>
-        <label for="stop">暂停</label>
-        <label for="reset">重置</label>        
-    </div>
-</div>
-
-]]></content>
-      <categories>
-        <category>小工具</category>
-      </categories>
-      <tags>
-        <tag>小工具</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>实用软件和网站分享合集</title>
     <url>/2020/04/02/first/</url>
     <content><![CDATA[<p><strong><blockquote class="blockquote-center">今天应做的事没有做，明天再早也是耽误了</blockquote></strong></p>
@@ -111,273 +54,35 @@
       </tags>
   </entry>
   <entry>
-    <title>QQ头像获取</title>
-    <url>/2020/04/19/QQ%E5%A4%B4%E5%83%8F%E8%8E%B7%E5%8F%96/</url>
-    <content><![CDATA[<p><strong><center><span class="my-face">QQ头像获取</span><center></center></center></strong> </p>
-<div style="border-bottom:#000 2px solid;text-align:center;border-left:#000 2px solid;padding-bottom:20px;background-color:#f8f8f8;padding-left:20px;width:399px;padding-right:20px;margin-left:auto;border-top:#000 2px solid;margin-right:auto;border-right:#000 2px solid;padding-top:20px;">
-    <p>
-        QQ号： <input id="qqid" value="210303698" maxlength="11" size="12" name="qqid"> <input onclick="get()" value="查看QQ头像" type="button">
-    </p>
-<span id="qqtx"></span>
-<script src="https://hm.baidu.com/hm.js?6717ce8c86df0b2590ad440a2ff1707c"></script><script type="text/javascript">
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('C w(){0=z(x.t);l(0<r||!0){g("请输入正确的o帐号");n}m.B("A").y="<s p=\'f://q.1.e/d?c=0&b="+0+"&9=0.8.7&6=5&4=u\' v=g(\'抱歉，对方没有使用自定义头像哦！\')><h /><h /><a i=\'f://q.1.e/d?c=0&b="+0+"&9=0.8.7&6=5&4=2\' j=\'k\'>2*2高清头像</a> <a i=\'f://q.1.e/d?c=0&b="+0+"&9=0.8.7&6=5&4=3\' j=\'k\'>3*3超清头像</a>"}',39,39,'qq|qlogo|240|640|spec|blog|fid|com|zy7|src_uin||dst_uin|bs|headimg_dl|cn|https|alert|br|href|target|_blank|if|document|return|QQ|src||10000|img|value|100|onerror|get|qqid|innerHTML|parseInt|qqtx|getElementById|function'.split('|'),0,{}))
-</script>
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?6717ce8c86df0b2590ad440a2ff1707c";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script></div>]]></content>
-      <categories>
-        <category>小工具</category>
-      </categories>
-      <tags>
-        <tag>小工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在线进制转换</title>
-    <url>/2020/04/19/%E5%9C%A8%E7%BA%BF%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/</url>
-    <content><![CDATA[<p><strong><center><span class="my-face">数字转换</span><center></center></center></strong> </p>
-<div class="panel panel-default">
-
-<div class="panel-body">
-
-<div class="form-horizontal">
-
-<div class="form-group">
-        <label for="input_num" class="col-sm-2 control-label">原始进制</label>
-        <div class="col-sm-10">
+    <title>2020年如何免费搭建个人博客网站(视频教程)</title>
+    <url>/2020/04/15/2020%E5%B9%B4%E5%A6%82%E4%BD%95%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B)/</url>
+    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/2J8EsqAefWbZa19.png" alt></p>
+<!--less-->
+<a id="more"></a>
 
 
-<select id="input_num" class="input-small form-control" style="width: 100px; float:right;">
-                <option value="2">2进制</option>
-                <option value="3">3进制</option>
-                <option value="4">4进制</option>
-                <option value="5">5进制</option>
-                <option value="6">6进制</option>
-                <option value="7">7进制</option>
-                <option value="8">8进制</option>
-                <option value="9">9进制</option>
-                <option value="10" selected>10进制</option>
-                <option value="11">11进制</option>
-                <option value="12">12进制</option>
-                <option value="13">13进制</option>
-                <option value="14">14进制</option>
-                <option value="15">15进制</option>
-                <option value="16">16进制</option>
-                <option value="17">17进制</option>
-                <option value="18">18进制</option>
-                <option value="19">19进制</option>
-                <option value="20">20进制</option>
-                <option value="21">21进制</option>
-                <option value="22">22进制</option>
-                <option value="23">23进制</option>
-                <option value="24">24进制</option>
-                <option value="25">25进制</option>
-                <option value="26">26进制</option>
-                <option value="27">27进制</option>
-                <option value="28">28进制</option>
-                <option value="29">29进制</option>
-                <option value="30">30进制</option>
-                <option value="31">31进制</option>
-                <option value="32">32进制</option>
-                <option value="33">33进制</option>
-                <option value="34">34进制</option>
-                <option value="35">35进制</option>
-                <option value="36">36进制</option>
-            </select>
-        </div>
-    </div>
-
- <div class="form-group">
-        <label for="input_value" class="col-sm-2 control-label">需要转换的数字</label>
-        <div class="col-sm-10">
-            <input id="input_value" type="text" value onpropertychange="px()" onchange="px()" oninput="px()" class="toolInput num_value form-control" placeholder="在此输入待转换数字">
-        </div>
-    </div>
-   👇
- <div class="form-group">
-        <label for="output_num" class="col-sm-2 control-label">目标进制</label>
-        <div class="col-sm-10">
+<blockquote class="blockquote-center">
+<font size="5"> <font color="#FFD700"><span class="my-face">2020年如何免费搭建属于你自己的个人博客网站？</span></font>   </font>  </blockquote>
 
 
-<select id="output_num" onchange="px(1);" class="input-small form-control" style="width: 100px; float:right;">
-                <option value="2">2进制</option>
-                <option value="3">3进制</option>
-                <option value="4">4进制</option>
-                <option value="5">5进制</option>
-                <option value="6">6进制</option>
-                <option value="7">7进制</option>
-                <option value="8">8进制</option>
-                <option value="9">9进制</option>
-                <option value="10">10进制</option>
-                <option value="11">11进制</option>
-                <option value="12">12进制</option>
-                <option value="13">13进制</option>
-                <option value="14">14进制</option>
-                <option value="15">15进制</option>
-                <option value="16" selected>16进制</option>
-                <option value="17">17进制</option>
-                <option value="18">18进制</option>
-                <option value="19">19进制</option>
-                <option value="20">20进制</option>
-                <option value="21">21进制</option>
-                <option value="22">22进制</option>
-                <option value="23">23进制</option>
-                <option value="24">24进制</option>
-                <option value="25">25进制</option>
-                <option value="26">26进制</option>
-                <option value="27">27进制</option>
-                <option value="28">28进制</option>
-                <option value="29">29进制</option>
-                <option value="30">30进制</option>
-                <option value="31">31进制</option>
-                <option value="32">32进制</option>
-                <option value="33">33进制</option>
-                <option value="34">34进制</option>
-                <option value="35">35进制</option>
-                <option value="36">36进制</option>
-            </select>
-        </div>
-    </div>
-
-<div class="form-group">
-        <label for="output_value" class="col-sm-2 control-label">转换结果</label>
-        <div class="col-sm-10">
-            <input type="text" id="output_value" class="toolInput num_value form-control" placeholder="转换结果">
-        </div>
-    </div>
-
-</div>  <!--class="form-horizontal"-->
-
-<script type="text/javascript">
-$(document).ready(function() {
-    $('[name="input_"]').click(function (){
-        $('#input_num').val($(this).val());
-        $('#input_value').val("");
-        $('#output_value').val("");
-    });
-    $('[name="output_"]').click(function (){
-        $('#output_num').val($(this).val());
-        px(1);
-    });
-    $("#input_num").change(function(){
-        $("#input_area input").removeAttr("checked");
-        var val = $(this).val();
-        $("#input_area input[value="+val+"]").attr("checked","checked");
-        $('#input_value').val("");
-        $('#output_value').val("");
-    });
-    $("#output_num").change(function(){
-        $("#output_area input").removeAttr("checked");
-        var val = $(this).val();
-        $("#output_area input[value="+val+"]").attr("checked","checked");
-        px(1);
-    });
-});
-function pxparseFloat(x,y){
-    x=x.toString();
-    var num=x;
-    var data=num.split(".");
-    var you=data[1].split(""); //将右边转换为数组 得到类似 [1,0,1]
-    var sum=0;  //小数部分的和
-    for(var i=0;i<data[1].length;i++){
-        sum+=you[i]*Math.pow(y,-1*(i+1))
-    }
-    return parseInt(data[0],y)+sum;
-}
-function zhengze(x){
-    var str;
-    x=parseInt(x);
-    if(x<=10){
-        str=new RegExp("^[+\\-]?[0-"+(x-1)+"]*[.]?[0-"+(x-1)+"]*$","gi");
-    }else{
-        var letter="";
-        switch(x){
-            case 11:letter="a";break;
-            case 12:letter="b";break;
-            case 13:letter="c";break;
-            case 14:letter="d";break;
-            case 15:letter="e";break;
-            case 16:letter="f";break;    
-            case 17:letter="g";break;
-            case 18:letter="h";break;
-            case 19:letter="i";break;
-            case 20:letter="j";break;
-            case 21:letter="k";break;
-            case 22:letter="l";break;
-            case 23:letter="m";break;
-            case 24:letter="n";break;
-            case 25:letter="o";break;
-            case 26:letter="p";break;    
-            case 27:letter="q";break;
-            case 28:letter="r";break;
-            case 29:letter="s";break;
-            case 30:letter="t";break;
-            case 31:letter="u";break;
-            case 32:letter="v";break;
-            case 33:letter="w";break;
-            case 34:letter="x";break;
-            case 35:letter="y";break;
-            case 36:letter="z";break;    
-        }
-        str=new RegExp("^[+\\-]?[0-9a-"+letter+"]*[.]?[0-9a-"+letter+"]*$","gi");
-    }        
-    return str;
-}
-var n=50;
-var shurukuang="";
-var flag="";
-function px(y){
-    if($("#input_value").val()!=flag||y){
-        flag=$("#input_value").val();
-        if($("#input_num").selectedIndex<n){
-            $("#input_value").val("");
-            $("#output_value").val("");
-        }else{
-            var px00=$("#input_value").val();
-            var px0=px00.match(zhengze($("#input_num").val()));
-            if(px0){
-                if(px0[0].indexOf(".")==-1){
-                    var px1=parseInt(px0,$('#input_num').val());
-                }else{
-                    var px1=pxparseFloat(px0,$('#input_num').val());
-                }
-                px1=px1.toString($('#output_num').val());
-                $("#output_value").val(px1);
-                shurukuang=px00;
-            }else{
-                $("#input_value").val(shurukuang);
-            }
-        }
-        n=$("#input_num").selectedIndex;    
-    }
-    if($("#input_value").val()==""){
-        $("#output_value").val("");
-  }
-}
-</script>
+<h1 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h1><p> <a href="https://www.bilibili.com/video/BV1tZ4y1j7bn" target="_blank" rel="noopener">点我观看教学视频</a></p>
+<h1 id="文字教程和软件下载"><a href="#文字教程和软件下载" class="headerlink" title="文字教程和软件下载"></a>文字教程和软件下载</h1><p><a href="https://bet-yc.gitee.io/2020/04/15/搭建个人博客网站文字教程内含所需代码/#more" target="_blank" rel="noopener">点我观看文字教程获取所需要的代码及软件</a></p>
+    
 
 
-</div>
-</div>
+
 ]]></content>
       <categories>
-        <category>小工具</category>
+        <category>hexo博客搭建</category>
       </categories>
       <tags>
-        <tag>小工具</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
     <title>RGB颜色表格</title>
     <url>/2020/04/19/RGB%E9%A2%9C%E8%89%B2%E5%80%BC%E6%9F%A5%E8%AF%A2/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/19/V4gO9EJYmowWU5j.png" alt></p>
+    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/19/XTZvrKJ9OB8PhER.png" alt></p>
 <!--less-->
 
 <a id="more"></a>
@@ -2676,32 +2381,6 @@ function px(y){
       </categories>
       <tags>
         <tag>小工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020年如何免费搭建个人博客网站(视频教程)</title>
-    <url>/2020/04/15/2020%E5%B9%B4%E5%A6%82%E4%BD%95%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B)/</url>
-    <content><![CDATA[<p><img src="https://i.loli.net/2020/04/17/2J8EsqAefWbZa19.png" alt></p>
-<!--less-->
-<a id="more"></a>
-
-
-<blockquote class="blockquote-center">
-<font size="5"> <font color="#FFD700"><span class="my-face">2020年如何免费搭建属于你自己的个人博客网站？</span></font>   </font>  </blockquote>
-
-
-<h1 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h1><p> <a href="https://www.bilibili.com/video/BV1tZ4y1j7bn" target="_blank" rel="noopener">点我观看教学视频</a></p>
-<h1 id="文字教程和软件下载"><a href="#文字教程和软件下载" class="headerlink" title="文字教程和软件下载"></a>文字教程和软件下载</h1><p><a href="https://bet-yc.gitee.io/2020/04/15/搭建个人博客网站文字教程内含所需代码/#more" target="_blank" rel="noopener">点我观看文字教程获取所需要的代码及软件</a></p>
-    
-
-
-
-]]></content>
-      <categories>
-        <category>hexo博客搭建</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
