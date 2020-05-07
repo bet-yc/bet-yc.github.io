@@ -5,7 +5,7 @@ document.addEventListener('visibilitychange', function () {
 	$('[rel="icon"]').attr('href', "/images/bitbug_favicon.ico"); 
 	document.title = '╭(°A°`)╮ 页面崩溃啦 ~'; clearTimeout(titleTime); } 
 	else {
-	$('[rel="icon"]').attr('href', "/images/favicon-32x32-next.ico"); 
+	$('[rel="icon"]').attr('href', "/images/favicon-32x32-next.png"); 
 	document.title = '(ฅ>ω<*ฅ) 噫又好了~' + OriginTitle; 
 	titleTime = setTimeout(function () { 
 		document.title = OriginTitle;

@@ -1,6 +1,3 @@
-<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.js"></script>
-<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +7,7 @@
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.2.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
@@ -45,41 +42,41 @@
 </style> 
   <meta property="og:type" content="article">
 <meta property="og:title" content="搭建个人博客网站文字教程内含所需代码">
-<meta property="og:url" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/index.html">
-<meta property="og:site_name" content="Bet  Blog">
+<meta property="og:url" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/index.html">
+<meta property="og:site_name" content="Bet Blog">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://i.loli.net/2020/04/17/gQFZ2lTtMfRLoy7.jpg">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/wechat.jpg">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/2.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/3.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/4.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/5.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/6.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/7.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/8.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/9.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/10.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/11.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/15.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/13.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/14.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/16.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/17.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/18.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/19.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/20.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/23.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/21.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/22.png">
-<meta property="og:image" content="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/wechat.jpg">
-<meta property="article:published_time" content="2020-04-15T01:37:24.110Z">
-<meta property="article:modified_time" content="2020-04-18T05:49:31.222Z">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/wechat.jpg">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/2.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/3.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/4.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/5.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/6.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/7.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/8.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/9.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/10.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/11.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/15.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/13.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/14.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/16.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/17.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/18.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/19.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/20.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/23.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/21.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/22.png">
+<meta property="og:image" content="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/wechat.jpg">
+<meta property="article:published_time" content="2020-04-28T07:14:33.691Z">
+<meta property="article:modified_time" content="2020-05-03T16:09:09.046Z">
 <meta property="article:author" content="bet-yc">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://i.loli.net/2020/04/17/gQFZ2lTtMfRLoy7.jpg">
 
-<link rel="canonical" href="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/">
+<link rel="canonical" href="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/">
 
 
 <script id="page-configurations">
@@ -92,7 +89,7 @@
   };
 </script>
 
-  <title>搭建个人博客网站文字教程内含所需代码 | Bet  Blog</title>
+  <title>搭建个人博客网站文字教程内含所需代码 | Bet Blog</title>
   
 
 
@@ -145,7 +142,7 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Bet  Blog</h1>
+      <h1 class="site-title">Bet Blog</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
       <p class="site-subtitle" itemprop="description">就当是一场梦   醒了很久还是很感动</p>
@@ -191,11 +188,6 @@
         <li class="menu-item menu-item-links">
 
     <a href="/links/" rel="section"><i class="fa fa-glass-cheers fa-fw"></i>links</a>
-
-  </li>
-        <li class="menu-item menu-item-question-answer">
-
-    <a href="/Question%20answer/" rel="section"><i class="fa fa-question fa-fw"></i>Question answer</a>
 
   </li>
         <li class="menu-item menu-item-tools">
@@ -259,16 +251,16 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/">
+    <link itemprop="mainEntityOfPage" href="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://i.loli.net/2020/04/17/2S1YAgPNFBDyKrT.gif">
+      <meta itemprop="image" content="/images/ac.png">
       <meta itemprop="name" content="bet-yc">
       <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Bet  Blog">
+      <meta itemprop="name" content="Bet Blog">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -282,14 +274,14 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2020-04-15 09:37:24" itemprop="dateCreated datePublished" datetime="2020-04-15T09:37:24+08:00">2020-04-15</time>
+              <time title="Created: 2020-04-28 15:14:33" itemprop="dateCreated datePublished" datetime="2020-04-28T15:14:33+08:00">2020-04-28</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-04-18 13:49:31" itemprop="dateModified" datetime="2020-04-18T13:49:31+08:00">2020-04-18</time>
+                <time title="Modified: 2020-05-04 00:09:09" itemprop="dateModified" datetime="2020-05-04T00:09:09+08:00">2020-05-04</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -310,8 +302,8 @@
       </span>
       <span class="post-meta-item-text">Valine: </span>
     
-    <a title="valine" href="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -354,21 +346,21 @@
 <p><strong>所以给大家推荐一个软件：Pandown</strong></p>
 <p><strong>通过这个软件登录打开你的百度云，不管下载什么东西都是根据你的网速来决定下载速度</strong></p>
 <p><strong>大家可以通过下面的二维码进入公众号   输入：<font color="#FF3030">pan </font>     即可领取软件</strong></p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/wechat.jpg" alt="Bet科技"></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/wechat.jpg" alt="Bet科技"></p>
 <hr>
 <h2 id="下载安装完成后"><a href="#下载安装完成后" class="headerlink" title="下载安装完成后"></a>下载安装完成后</h2><p>我們首先需要创建一個<a href="https://github.com/" target="_blank" rel="noopener">github账户</a></p>
 <p>进入网站后点击右上角的 sign up</p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/2.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/2.png" alt></p>
 <p>进入后依次輸入你的用戶名|邮箱|密码</p>
 <p><strong>注意！</strong> 注册时的用戶名请和下面的仓库名一致)</p>
-<p>动态验证后选择左边的free<br><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/3.png" alt></p>
-<p>之后他會发送一个验证网址到你注册填写的邮箱中，如下图所示<br><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/4.png" alt></p>
+<p>动态验证后选择左边的free<br><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/3.png" alt></p>
+<p>之后他會发送一个验证网址到你注册填写的邮箱中，如下图所示<br><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/4.png" alt></p>
 <p>然后我们登录邮箱打開github給我们发送的邮件，点击邮件中的链接完成验证</p>
 <hr>
-<h2 id="我们验证完成后需要创建一个仓库"><a href="#我们验证完成后需要创建一个仓库" class="headerlink" title="我们验证完成后需要创建一个仓库"></a>我们验证完成后需要创建一个仓库</h2><p>他会提示建立一個新的倉庫，如果没有提示跳出在右上角头像下拉第二个选项打开创建仓库亦可<br><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/5.png" alt></p>
+<h2 id="我们验证完成后需要创建一个仓库"><a href="#我们验证完成后需要创建一个仓库" class="headerlink" title="我们验证完成后需要创建一个仓库"></a>我们验证完成后需要创建一个仓库</h2><p>他会提示建立一個新的倉庫，如果没有提示跳出在右上角头像下拉第二个选项打开创建仓库亦可<br><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/5.png" alt></p>
 <p>仓库格式固定为：  用户名.github.io</p>
 <p>格式是固定的！！！</p>
-<h2 id="进入仓库后我们新建一个文件"><a href="#进入仓库后我们新建一个文件" class="headerlink" title="进入仓库后我们新建一个文件"></a>进入仓库后我们新建一个文件</h2><p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/6.png" alt></p>
+<h2 id="进入仓库后我们新建一个文件"><a href="#进入仓库后我们新建一个文件" class="headerlink" title="进入仓库后我们新建一个文件"></a>进入仓库后我们新建一个文件</h2><p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/6.png" alt></p>
 <p>文档名字为：index.html</p>
 <p>内容可以随意   如：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello  world</span><br></pre></td></tr></table></figure>
@@ -378,7 +370,7 @@
 <p>进入网站后可能沒有那麽快生成，需要刷新一下网页耐心等待一分钟</p>
 <p>等他刷新出来后你的網頁就會顯示你刚刚写在<font color="#FF3030">index.html</font>  中的内容： <font color="#FF3030">hello world </font> </p>
 <p>如图：</p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/7.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/7.png" alt></p>
 <p> 到此我们的github的网址（用户名.github.io）就可以正常使用了！！！</p>
 <hr>
 <h2 id="接下来需要开始让你的网址和你的电脑连接起来"><a href="#接下来需要开始让你的网址和你的电脑连接起来" class="headerlink" title="接下来需要开始让你的网址和你的电脑连接起来"></a>接下来需要开始让你的网址和你的电脑连接起来</h2><p>首先我们需要在任意盘里创建一个文件夹叫 <font color="#FF3030">blog </font>  用来存放你的博客文件</p>
@@ -387,23 +379,23 @@
 <p>输入<font color="#FF3030">shift+E+： </font> 在cmd中进入E盘</p>
 <p>接着cmd中继续输入 ：<font color="#FF3030"> cd blog   </font>  </p>
 <p>如图</p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/8.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/8.png" alt></p>
 <p><strong>然后依次输入下面的安装代码</strong></p>
 <p> 下面代码可以直接复制到cmd使用（cmd中右键即可执行粘贴命令）</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 
 
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/9.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/9.png" alt></p>
 <p>（xxx是你的博客的名字）如：betblog（bet+blog）的格式</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init xxxblog</span><br></pre></td></tr></table></figure>
 
 
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/10.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/10.png" alt></p>
 <p> 进入你的博客目录   </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> xxxblog</span><br></pre></td></tr></table></figure>
 
 
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/11.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/11.png" alt></p>
 <p>安装依赖</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
 
@@ -413,14 +405,14 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
 
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/15.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/15.png" alt></p>
 <p>然后我们本地运行看一下是不是你的博客页面能否run出来</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/13.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/13.png" alt></p>
 <p> 在浏览器网址栏中输入  <font color="#FF3030">localhost：4000</font>  </p>
 <p> 然後我們就看到hexo默认的一个模板了！</p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/14.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/14.png" alt></p>
 <p><strong><em>这里我们看到我们的网站已经可以成功运行了，不过是在本地。</em></strong></p>
 <hr>
 <p><strong>接着我們進行下一步操作，我們打開創建好的github账户</strong></p>
@@ -429,7 +421,7 @@
 <p>我们点击打开，点击后右上角會出現  <font color="#FF3030"> New SSH keys</font>的字眼</p>
 <p>此时我们把它放在一边先不理他注意不要关闭此窗口</p>
 <h2 id="接著我們打開下載好的Git-文件夹在里面找到-git-bash-這個程序"><a href="#接著我們打開下載好的Git-文件夹在里面找到-git-bash-這個程序" class="headerlink" title="接著我們打開下載好的Git 文件夹在里面找到  git-bash 這個程序"></a>接著我們打開下載好的Git 文件夹在里面找到 <font color="#FF3030"> git-bash </font>這個程序</h2><p>打开<font color="#FF3030"> git-bash </font>后依次执行下面的代码命令（也可以桌面右击打开git-bash）</p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/16.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/16.png" alt></p>
 <p>代码：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"xxx"</span></span><br></pre></td></tr></table></figure>
 <p>xxx是 = 你注册github时的用户名   如：bet  |  注意修改””引号中内容</p>
@@ -437,32 +429,32 @@
 <p>如QQ邮箱：  “<a href="mailto:xxxxxxxx@qq.com">xxxxxxxx@qq.com</a>“</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C  <span class="string">"此處填你綁定github的郵箱地址"</span></span><br></pre></td></tr></table></figure>
 <p><strong>输入这些以后，他会跳出来几个命令首先需要你确认一下</strong><br><strong>需要你输入yes/y</strong><br><strong>确认完成后依次跳出需要你输入的指令依次为</strong><br><strong>1.输入你的用户名 （github的</strong><br><strong>2.输入你的邮箱   （github的）</strong><br><strong>3.输入两次你的密码（密码输入时是不显示的）放心输入</strong></p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/17.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/17.png" alt></p>
 <p>出现这个就说明你的ssh更新好了</p>
 <hr>
 <h2 id="然后我们打开C盘——打开用户——打開你當前使用的用户名见图"><a href="#然后我们打开C盘——打开用户——打開你當前使用的用户名见图" class="headerlink" title="然后我们打开C盘——打开用户——打開你當前使用的用户名见图"></a>然后我们打开C盘——打开用户——打開你當前使用的用户名见图</h2><p>你會找到一个叫<strong>ssh</strong>的文件夹  里面有一个<strong>.pub</strong> 格式的叫 <strong>id_rsa</strong>的文件</p>
 <p>打开它复制里面的内容</p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/18.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/18.png" alt></p>
 <p>我们复制ssh到你的github 的  <font color="#FF3030"> New SSH keys</font>中</p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/19.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/19.png" alt></p>
 <p>打开Sublime Text 3 软件把我們的 blog  中的 xxxblog文件夹</p>
 <p>拖动到Sublime Text 3窗口中</p>
 <p>再打开最下面的 confing.yml文件 <strong>见图</strong></p>
 <p><strong><em>这边我们需要修改一下</em></strong></p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/20.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/20.png" alt></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:  </span><br><span class="line"><span class="built_in">type</span>:  git</span><br><span class="line">repository: 此处填写你的仓库地址</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
 
 
 <p>仓库地址在你的github仓库面板中复制</p>
 <p>见图</p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/23.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/23.png" alt></p>
 <p>接着我们在text3按下 <strong>ctrl+F</strong> 打开查找命令输入 <strong>Url</strong></p>
 <p>我们把<strong>Url</strong>后面改为  </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">url:  https://用户名.github.io</span><br></pre></td></tr></table></figure>
 
 
 <p>如图所示</p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/21.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/21.png" alt></p>
 <h2 id="收尾工作"><a href="#收尾工作" class="headerlink" title="收尾工作"></a>收尾工作</h2><p><strong>我们按下 ctrl + s 执行一下text3的保存命令</strong></p>
 <p>再打开cmd命令依次输入</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
@@ -474,7 +466,7 @@
 <p>这步命令会跳出这么一个弹窗让我们填写自己github的用户名和密码，账户密码一定要对哦。</p>
 <p>输入错误会报错的。</p>
 <p> <strong>注意：即使没有弹窗跳出也不要慌他会在你的cmd窗口跳一个需要输入的指令，我们正常输入自己的 <font color="#FF3030">注册邮箱和密码</font>即可</strong></p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/22.png" alt></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/22.png" alt></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <p>本地端口运行</p>
 <h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><p>我们也可以同时使用： </p>
@@ -486,7 +478,7 @@
 <p>然后我们打开网址  <font color="#FF3030">用户名.github.io</font></p>
 <p><strong><center><font color="    #32CD32"><br>我们就可以看到我们的网站了！！！<br></font><center></center></center></strong></p>
 <p><strong><center><font color="#FF3030"><br>此安装过程中有任何问题可以下方评论区留下你的问题<br>或通过微信公众号联系我，同时公众号会不定期更新一些实用的学习娱乐的网站和软件。<br></font><center></center></center></strong></p>
-<p><img src="/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/wechat.jpg" alt="Bet科技"></p>
+<p><img src="/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/wechat.jpg" alt="Bet科技"></p>
 
     </div>
 
@@ -535,7 +527,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link: </strong>
-    <a href="https://bet-yc.github.io/2020/04/15/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/" title="搭建个人博客网站文字教程内含所需代码">https://bet-yc.github.io/2020/04/15/搭建个人博客网站文字教程内含所需代码/</a>
+    <a href="https://bet-yc.github.io/2020/04/28/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%96%87%E5%AD%97%E6%95%99%E7%A8%8B%E5%86%85%E5%90%AB%E6%89%80%E9%9C%80%E4%BB%A3%E7%A0%81/" title="搭建个人博客网站文字教程内含所需代码">https://bet-yc.github.io/2020/04/28/搭建个人博客网站文字教程内含所需代码/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
@@ -560,12 +552,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/04/15/2020%E5%B9%B4%E5%A6%82%E4%BD%95%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%88%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B)/" rel="prev" title="2020年如何免费搭建个人博客网站(视频教程)">
-      <i class="fa fa-chevron-left"></i> 2020年如何免费搭建个人博客网站(视频教程)
+    <a href="/2020/04/28/%E6%A0%87%E9%A2%98%E6%A0%8F%E7%89%B9%E6%95%88/" rel="prev" title="hexo网页题头文章标题的字体抖音效果">
+      <i class="fa fa-chevron-left"></i> hexo网页题头文章标题的字体抖音效果
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020/04/08/hexo%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E6%95%88%E6%9E%9C%E5%85%B13%E7%A7%8D/" rel="next" title="hexo添加点击效果共3种">
-      hexo添加点击效果共3种 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/04/28/%E6%B7%BB%E5%8A%A0live2d%E5%8A%A8%E7%94%BB%E4%BA%BA%E7%89%A9/" rel="next" title="hexo添加live2d动画人物">
+      hexo添加live2d动画人物 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -638,7 +630,7 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <a href="/">
     <img class="site-author-image" itemprop="image" alt="bet-yc"
-      src="https://i.loli.net/2020/04/17/2S1YAgPNFBDyKrT.gif">
+      src="/images/ac.png">
     </a>
   <p class="site-author-name" itemprop="name">bet-yc</p>
   <div class="site-description" itemprop="description"></div>
@@ -647,28 +639,25 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
 </div>
   <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-      </span>
       <span class="links-of-author-item">
         <a href="mailto:210303698@qq.com" title="E-Mail → mailto:210303698@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
       </span>
@@ -681,7 +670,7 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://www.baidu.com/" title="https:&#x2F;&#x2F;www.baidu.com" rel="noopener" target="_blank">Baidu</a>
+          <a href="https://cn.bing.com/" title="https:&#x2F;&#x2F;cn.bing.com&#x2F;" rel="noopener" target="_blank">Bing</a>
         </li>
         <li class="links-of-blogroll-item">
           <a href="https://www.google.com.hk/?hl=zh-cn" title="https:&#x2F;&#x2F;www.google.com.hk&#x2F;?hl&#x3D;zh-cn" rel="noopener" target="_blank">Google</a>
@@ -691,7 +680,8 @@
 
 
       </div>
-          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86  src="//music.163.com/outchain/player?type=2&id=421934262&auto=0&height=66"></iframe>
+     
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=421934262&auto=0&height=66"></iframe>
     </div>
   </aside>
   <div id="sidebar-dimmer"></div>
@@ -707,7 +697,7 @@
         <script  async  src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
-<div class="copyright">
+<div class="copyright">⛄
   
   &copy; 
   <span itemprop="copyrightYear">2020</span>
@@ -715,6 +705,7 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">bet-yc</span>
+<font color=" #FFFFE0"><span class="my-face">ღゝ◡╹)ノ♡</span></font>雄起~🌻
 </div>
 
 <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
@@ -729,7 +720,7 @@
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("timeDate").innerHTML = "🏠本站已安全运行 "+dnum+" 天 "; 
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
     } 
 setInterval("createtime()",250);
@@ -935,6 +926,12 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 
 
 
+<!--<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.js"></script>-->
+<!--<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>-->
+
+
+
+
 <!--单击显示文字-->
 <script type="text/javascript" src="/js/src/text.js"></script>
 
@@ -971,10 +968,27 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 
 
 
-<!--下雪-->
+<!--下雪
 <script type="text/javascript" src="/js/src/snowy.js"></script>
 <style type="text/css">
 .snow-container{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100001;}
 </style>
-<div class="snow-container"></div>
+<div class="snow-container"></div>-->
 
+
+
+<!--snowblue-->
+<style>
+    #Snow{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+        background: rgba(255,255,255,0.1);
+        pointer-events: none;
+    }
+</style>
+<canvas id="Snow" width="923" height="937"></canvas>
+<script type="text/javascript" src="/js/src/snowblue.js"></script>

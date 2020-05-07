@@ -1,6 +1,3 @@
-<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.js"></script>
-<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +7,7 @@
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.2.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
@@ -43,15 +40,15 @@
         border-left-color: #1E92FB;    /*左边框颜色*/
     }
 </style> 
-  <meta name="description" content="计时器  试试你可以停在6.666嘛！我最好记录6.660🙌                                            0 1 2 3 4 5 6 7 8 9                               0 1 2 3 4 5 6 7 8 9                  :                      0 1 2 3 4 5 6">
+  <meta name="description" content="File-s跨平台存储工具，临时使用很方便，不建议传输大内存文件。原理：使用本地带宽上传和下载，所以速度是由你自己网络环境影响  尚未建设完成，请耐心等待👦">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Tools">
 <meta property="og:url" content="https://bet-yc.github.io/Tools/index.html">
-<meta property="og:site_name" content="Bet  Blog">
-<meta property="og:description" content="计时器  试试你可以停在6.666嘛！我最好记录6.660🙌                                            0 1 2 3 4 5 6 7 8 9                               0 1 2 3 4 5 6 7 8 9                  :                      0 1 2 3 4 5 6">
+<meta property="og:site_name" content="Bet Blog">
+<meta property="og:description" content="File-s跨平台存储工具，临时使用很方便，不建议传输大内存文件。原理：使用本地带宽上传和下载，所以速度是由你自己网络环境影响  尚未建设完成，请耐心等待👦">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-04-19T08:27:33.000Z">
-<meta property="article:modified_time" content="2020-04-19T08:27:38.871Z">
+<meta property="article:modified_time" content="2020-04-28T07:49:11.223Z">
 <meta property="article:author" content="bet-yc">
 <meta name="twitter:card" content="summary">
 
@@ -68,7 +65,7 @@
   };
 </script>
 
-  <title>Tools | Bet  Blog
+  <title>Tools | Bet Blog
 </title>
   
 
@@ -122,7 +119,7 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Bet  Blog</h1>
+      <h1 class="site-title">Bet Blog</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
       <p class="site-subtitle" itemprop="description">就当是一场梦   醒了很久还是很感动</p>
@@ -168,11 +165,6 @@
         <li class="menu-item menu-item-links">
 
     <a href="/links/" rel="section"><i class="fa fa-glass-cheers fa-fw"></i>links</a>
-
-  </li>
-        <li class="menu-item menu-item-question-answer">
-
-    <a href="/Question%20answer/" rel="section"><i class="fa fa-question fa-fw"></i>Question answer</a>
 
   </li>
         <li class="menu-item menu-item-tools">
@@ -254,304 +246,19 @@
       
       
       <div class="post-body">
-          <p><strong><center><span class="my-face">计时器</span><center></center></center></strong> </p>
-<p><strong><center>试试你可以停在6.666嘛！我最好记录6.660🙌<center></center></center></strong> </p>
-<div class="timer_main">
-    <input id="start" name="controls" type="radio">
-    <input id="stop" name="controls" type="radio">
-    <input id="reset" name="controls" type="radio">
-    <div class="timer">
-        <div class="cell">
-            <div class="numbers tenhour moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell">
-            <div class="numbers hour moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell divider"><div class="numbers">:</div></div>
-        <div class="cell">
-            <div class="numbers tenminute movesix">0 1 2 3 4 5 6</div>
-        </div>
-        <div class="cell">
-            <div class="numbers minute moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell divider"><div class="numbers">:</div></div>
-        <div class="cell">
-            <div class="numbers tensecond movesix">0 1 2 3 4 5 6</div>
-        </div>
-        <div class="cell">
-            <div class="numbers second moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell divider"><div class="numbers">:</div></div>
-        <div class="cell">
-            <div class="numbers milisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell">
-            <div class="numbers tenmilisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-        <div class="cell">
-            <div class="numbers hundredmilisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
-        </div>
-    </div>
-    <!-- Lables for the controls -->
-    <div id="timer_controls">
-        <label for="start">开始</label>
-        <label for="stop">暂停</label>
-        <label for="reset">重置</label>        
-    </div>
-</div>
-
-<hr>
-<p><strong><center><span class="my-face">数字转换</span><center></center></center></strong> </p>
-<div class="panel panel-default">
-
-<div class="panel-body">
-
-<div class="form-horizontal">
-
-<div class="form-group">
-        <label for="input_num" class="col-sm-2 control-label">原始进制</label>
-        <div class="col-sm-10">
+          <div class="post-body" style="opacity: 1; display: block; transform: translateY(0px);">
+          <p><strong></strong></p><center><strong><a href="https://f.dnuise.cn/" target="_blank" rel="noopener">File-s</a><center></center></strong></center><br><strong><font color="    #1E90FF"><center>跨平台存储工具，临时使用很方便，不建议传输大内存文件。<center></center></center></font></strong><br><strong><font color="    #FF3E96"><center>原理：使用本地带宽上传和下载，所以速度是由你自己网络环境影响<center></center></center></font></strong> <p></p>
+<p><strong></strong></p><center><strong><span class="my-face">尚未建设完成，请耐心等待👦</span><center></center></strong></center> <p></p>
 
 
-<select id="input_num" class="input-small form-control" style="width: 100px; float:right;">
-                <option value="2">2进制</option>
-                <option value="3">3进制</option>
-                <option value="4">4进制</option>
-                <option value="5">5进制</option>
-                <option value="6">6进制</option>
-                <option value="7">7进制</option>
-                <option value="8">8进制</option>
-                <option value="9">9进制</option>
-                <option value="10" selected>10进制</option>
-                <option value="11">11进制</option>
-                <option value="12">12进制</option>
-                <option value="13">13进制</option>
-                <option value="14">14进制</option>
-                <option value="15">15进制</option>
-                <option value="16">16进制</option>
-                <option value="17">17进制</option>
-                <option value="18">18进制</option>
-                <option value="19">19进制</option>
-                <option value="20">20进制</option>
-                <option value="21">21进制</option>
-                <option value="22">22进制</option>
-                <option value="23">23进制</option>
-                <option value="24">24进制</option>
-                <option value="25">25进制</option>
-                <option value="26">26进制</option>
-                <option value="27">27进制</option>
-                <option value="28">28进制</option>
-                <option value="29">29进制</option>
-                <option value="30">30进制</option>
-                <option value="31">31进制</option>
-                <option value="32">32进制</option>
-                <option value="33">33进制</option>
-                <option value="34">34进制</option>
-                <option value="35">35进制</option>
-                <option value="36">36进制</option>
-            </select>
-        </div>
-    </div>
-
- <div class="form-group">
-        <label for="input_value" class="col-sm-2 control-label">需要转换的数字</label>
-        <div class="col-sm-10">
-            <input id="input_value" type="text" value onpropertychange="px()" onchange="px()" oninput="px()" class="toolInput num_value form-control" placeholder="在此输入待转换数字">
-        </div>
-    </div>
-   👇
- <div class="form-group">
-        <label for="output_num" class="col-sm-2 control-label">目标进制</label>
-        <div class="col-sm-10">
 
 
-<select id="output_num" onchange="px(1);" class="input-small form-control" style="width: 100px; float:right;">
-                <option value="2">2进制</option>
-                <option value="3">3进制</option>
-                <option value="4">4进制</option>
-                <option value="5">5进制</option>
-                <option value="6">6进制</option>
-                <option value="7">7进制</option>
-                <option value="8">8进制</option>
-                <option value="9">9进制</option>
-                <option value="10">10进制</option>
-                <option value="11">11进制</option>
-                <option value="12">12进制</option>
-                <option value="13">13进制</option>
-                <option value="14">14进制</option>
-                <option value="15">15进制</option>
-                <option value="16" selected>16进制</option>
-                <option value="17">17进制</option>
-                <option value="18">18进制</option>
-                <option value="19">19进制</option>
-                <option value="20">20进制</option>
-                <option value="21">21进制</option>
-                <option value="22">22进制</option>
-                <option value="23">23进制</option>
-                <option value="24">24进制</option>
-                <option value="25">25进制</option>
-                <option value="26">26进制</option>
-                <option value="27">27进制</option>
-                <option value="28">28进制</option>
-                <option value="29">29进制</option>
-                <option value="30">30进制</option>
-                <option value="31">31进制</option>
-                <option value="32">32进制</option>
-                <option value="33">33进制</option>
-                <option value="34">34进制</option>
-                <option value="35">35进制</option>
-                <option value="36">36进制</option>
-            </select>
-        </div>
-    </div>
 
-<div class="form-group">
-        <label for="output_value" class="col-sm-2 control-label">转换结果</label>
-        <div class="col-sm-10">
-            <input type="text" id="output_value" class="toolInput num_value form-control" placeholder="转换结果">
-        </div>
-    </div>
 
-</div>  <!--class="form-horizontal"-->
 
-<script type="text/javascript">
-$(document).ready(function() {
-    $('[name="input_"]').click(function (){
-        $('#input_num').val($(this).val());
-        $('#input_value').val("");
-        $('#output_value').val("");
-    });
-    $('[name="output_"]').click(function (){
-        $('#output_num').val($(this).val());
-        px(1);
-    });
-    $("#input_num").change(function(){
-        $("#input_area input").removeAttr("checked");
-        var val = $(this).val();
-        $("#input_area input[value="+val+"]").attr("checked","checked");
-        $('#input_value').val("");
-        $('#output_value').val("");
-    });
-    $("#output_num").change(function(){
-        $("#output_area input").removeAttr("checked");
-        var val = $(this).val();
-        $("#output_area input[value="+val+"]").attr("checked","checked");
-        px(1);
-    });
-});
-function pxparseFloat(x,y){
-    x=x.toString();
-    var num=x;
-    var data=num.split(".");
-    var you=data[1].split(""); //将右边转换为数组 得到类似 [1,0,1]
-    var sum=0;  //小数部分的和
-    for(var i=0;i<data[1].length;i++){
-        sum+=you[i]*Math.pow(y,-1*(i+1))
-    }
-    return parseInt(data[0],y)+sum;
-}
-function zhengze(x){
-    var str;
-    x=parseInt(x);
-    if(x<=10){
-        str=new RegExp("^[+\\-]?[0-"+(x-1)+"]*[.]?[0-"+(x-1)+"]*$","gi");
-    }else{
-        var letter="";
-        switch(x){
-            case 11:letter="a";break;
-            case 12:letter="b";break;
-            case 13:letter="c";break;
-            case 14:letter="d";break;
-            case 15:letter="e";break;
-            case 16:letter="f";break;    
-            case 17:letter="g";break;
-            case 18:letter="h";break;
-            case 19:letter="i";break;
-            case 20:letter="j";break;
-            case 21:letter="k";break;
-            case 22:letter="l";break;
-            case 23:letter="m";break;
-            case 24:letter="n";break;
-            case 25:letter="o";break;
-            case 26:letter="p";break;    
-            case 27:letter="q";break;
-            case 28:letter="r";break;
-            case 29:letter="s";break;
-            case 30:letter="t";break;
-            case 31:letter="u";break;
-            case 32:letter="v";break;
-            case 33:letter="w";break;
-            case 34:letter="x";break;
-            case 35:letter="y";break;
-            case 36:letter="z";break;    
-        }
-        str=new RegExp("^[+\\-]?[0-9a-"+letter+"]*[.]?[0-9a-"+letter+"]*$","gi");
-    }        
-    return str;
-}
-var n=50;
-var shurukuang="";
-var flag="";
-function px(y){
-    if($("#input_value").val()!=flag||y){
-        flag=$("#input_value").val();
-        if($("#input_num").selectedIndex<n){
-            $("#input_value").val("");
-            $("#output_value").val("");
-        }else{
-            var px00=$("#input_value").val();
-            var px0=px00.match(zhengze($("#input_num").val()));
-            if(px0){
-                if(px0[0].indexOf(".")==-1){
-                    var px1=parseInt(px0,$('#input_num').val());
-                }else{
-                    var px1=pxparseFloat(px0,$('#input_num').val());
-                }
-                px1=px1.toString($('#output_num').val());
-                $("#output_value").val(px1);
-                shurukuang=px00;
-            }else{
-                $("#input_value").val(shurukuang);
-            }
-        }
-        n=$("#input_num").selectedIndex;    
-    }
-    if($("#input_value").val()==""){
-        $("#output_value").val("");
-  }
-}
-</script>
 
 
 </div>
-</div>
-
-
-<hr>
-<p><strong><center><span class="my-face">QQ头像获取</span><center></center></center></strong> </p>
-<div style="border-bottom:#000 2px solid;text-align:center;border-left:#000 2px solid;padding-bottom:20px;background-color:#f8f8f8;padding-left:20px;width:399px;padding-right:20px;margin-left:auto;border-top:#000 2px solid;margin-right:auto;border-right:#000 2px solid;padding-top:20px;">
-    <p>
-        QQ号： <input id="qqid" value="210303698" maxlength="11" size="12" name="qqid"> <input onclick="get()" value="查看QQ头像" type="button">
-    </p>
-<span id="qqtx"></span>
-<script src="https://hm.baidu.com/hm.js?6717ce8c86df0b2590ad440a2ff1707c"></script><script type="text/javascript">
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('C w(){0=z(x.t);l(0<r||!0){g("请输入正确的o帐号");n}m.B("A").y="<s p=\'f://q.1.e/d?c=0&b="+0+"&9=0.8.7&6=5&4=u\' v=g(\'抱歉，对方没有使用自定义头像哦！\')><h /><h /><a i=\'f://q.1.e/d?c=0&b="+0+"&9=0.8.7&6=5&4=2\' j=\'k\'>2*2高清头像</a> <a i=\'f://q.1.e/d?c=0&b="+0+"&9=0.8.7&6=5&4=3\' j=\'k\'>3*3超清头像</a>"}',39,39,'qq|qlogo|240|640|spec|blog|fid|com|zy7|src_uin||dst_uin|bs|headimg_dl|cn|https|alert|br|href|target|_blank|if|document|return|QQ|src||10000|img|value|100|onerror|get|qqid|innerHTML|parseInt|qqtx|getElementById|function'.split('|'),0,{}))
-</script>
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?6717ce8c86df0b2590ad440a2ff1707c";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script></div>
-
-<hr>
-<blockquote class="blockquote-center"><font color="    #7AC5CD"><span class="my-face">ღゝ◡╹)ノ♡--未完待续--</span></font>  </blockquote>
-
-
       </div>
       
       
@@ -624,7 +331,7 @@ var _hmt = _hmt || [];
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <a href="/">
     <img class="site-author-image" itemprop="image" alt="bet-yc"
-      src="https://i.loli.net/2020/04/17/2S1YAgPNFBDyKrT.gif">
+      src="/images/ac.png">
     </a>
   <p class="site-author-name" itemprop="name">bet-yc</p>
   <div class="site-description" itemprop="description"></div>
@@ -633,28 +340,25 @@ var _hmt = _hmt || [];
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
 </div>
   <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-      </span>
       <span class="links-of-author-item">
         <a href="mailto:210303698@qq.com" title="E-Mail → mailto:210303698@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
       </span>
@@ -667,7 +371,7 @@ var _hmt = _hmt || [];
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://www.baidu.com/" title="https:&#x2F;&#x2F;www.baidu.com" rel="noopener" target="_blank">Baidu</a>
+          <a href="https://cn.bing.com/" title="https:&#x2F;&#x2F;cn.bing.com&#x2F;" rel="noopener" target="_blank">Bing</a>
         </li>
         <li class="links-of-blogroll-item">
           <a href="https://www.google.com.hk/?hl=zh-cn" title="https:&#x2F;&#x2F;www.google.com.hk&#x2F;?hl&#x3D;zh-cn" rel="noopener" target="_blank">Google</a>
@@ -677,7 +381,8 @@ var _hmt = _hmt || [];
 
 
       </div>
-          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86  src="//music.163.com/outchain/player?type=2&id=421934262&auto=0&height=66"></iframe>
+     
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=421934262&auto=0&height=66"></iframe>
     </div>
   </aside>
   <div id="sidebar-dimmer"></div>
@@ -693,7 +398,7 @@ var _hmt = _hmt || [];
         <script  async  src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
-<div class="copyright">
+<div class="copyright">⛄
   
   &copy; 
   <span itemprop="copyrightYear">2020</span>
@@ -701,6 +406,7 @@ var _hmt = _hmt || [];
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">bet-yc</span>
+<font color=" #FFFFE0"><span class="my-face">ღゝ◡╹)ノ♡</span></font>雄起~🌻
 </div>
 
 <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
@@ -715,7 +421,7 @@ var _hmt = _hmt || [];
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+        document.getElementById("timeDate").innerHTML = "🏠本站已安全运行 "+dnum+" 天 "; 
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
     } 
 setInterval("createtime()",250);
@@ -921,6 +627,12 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 
 
 
+<!--<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.js"></script>-->
+<!--<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>-->
+
+
+
+
 <!--单击显示文字-->
 <script type="text/javascript" src="/js/src/text.js"></script>
 
@@ -957,10 +669,27 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 
 
 
-<!--下雪-->
+<!--下雪
 <script type="text/javascript" src="/js/src/snowy.js"></script>
 <style type="text/css">
 .snow-container{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100001;}
 </style>
-<div class="snow-container"></div>
+<div class="snow-container"></div>-->
 
+
+
+<!--snowblue-->
+<style>
+    #Snow{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+        background: rgba(255,255,255,0.1);
+        pointer-events: none;
+    }
+</style>
+<canvas id="Snow" width="923" height="937"></canvas>
+<script type="text/javascript" src="/js/src/snowblue.js"></script>
