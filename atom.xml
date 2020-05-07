@@ -65,30 +65,6 @@
   </entry>
   
   <entry>
-    <title>hexo添加来比力评论</title>
-    <link href="https://bet-yc.github.io/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/"/>
-    <id>https://bet-yc.github.io/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/</id>
-    <published>2020-04-28T07:14:33.691Z</published>
-    <updated>2020-05-03T16:08:23.461Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/04/17/gmvFaYdXM5xPKns.jpg" alt></p><!--less--><a id="more"></a><blockquote class="blockquote-center"><font size="5">  给你的博客添加评论功能 </font>   </blockquote><h1 id="添加来必力评论功能"><a href="#添加来必力评论功能" class="headerlink" title="添加来必力评论功能"></a>添加来必力评论功能</h1><p><a href="https://livere.com/" target="_blank" rel="noopener">来必力</a></p><p>这个是目前最直接的只需要注册就能用的评论系统</p><h2 id="第一步：点击上面的言必力进入官网"><a href="#第一步：点击上面的言必力进入官网" class="headerlink" title="第一步：点击上面的言必力进入官网"></a>第一步：点击上面的言必力进入官网</h2><p>点击最上面的安装——————免费—————现在安装</p><p><img src="/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/1.png" alt></p><p>点击来比力注册（QQ邮箱即可注册）————完成注册后可在右上角登录账户—————登录后再次点击免费现在安装</p><p><img src="/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/2.png" alt></p><p>进入此页面后打开左下角的代码管理然后将红色方框中的代码复制下来</p><p><img src="/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/3.png" alt></p><p>打开主题文件的_config.yml用 ctrl+F 搜索 uid  将你复制的代码放在后面就完成了</p><p><img src="/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/4.png" alt></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/04/17/gmvFaYdXM5xPKns.jpg&quot; alt&gt;&lt;/p&gt;
-&lt;!--less--&gt;
-    
-    </summary>
-    
-    
-      <category term="hexo博客添加配置" scheme="https://bet-yc.github.io/categories/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E9%85%8D%E7%BD%AE/"/>
-    
-    
-      <category term="hexo" scheme="https://bet-yc.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo雪花特效的js代码</title>
     <link href="https://bet-yc.github.io/2020/04/28/%E4%B8%8B%E9%9B%AA/"/>
     <id>https://bet-yc.github.io/2020/04/28/%E4%B8%8B%E9%9B%AA/</id>
@@ -106,6 +82,30 @@
     
     
       <category term="网页雪花飘落特效" scheme="https://bet-yc.github.io/categories/%E7%BD%91%E9%A1%B5%E9%9B%AA%E8%8A%B1%E9%A3%98%E8%90%BD%E7%89%B9%E6%95%88/"/>
+    
+    
+      <category term="hexo" scheme="https://bet-yc.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo添加来比力评论</title>
+    <link href="https://bet-yc.github.io/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/"/>
+    <id>https://bet-yc.github.io/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/</id>
+    <published>2020-04-28T07:14:33.691Z</published>
+    <updated>2020-05-03T16:08:23.461Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/04/17/gmvFaYdXM5xPKns.jpg" alt></p><!--less--><a id="more"></a><blockquote class="blockquote-center"><font size="5">  给你的博客添加评论功能 </font>   </blockquote><h1 id="添加来必力评论功能"><a href="#添加来必力评论功能" class="headerlink" title="添加来必力评论功能"></a>添加来必力评论功能</h1><p><a href="https://livere.com/" target="_blank" rel="noopener">来必力</a></p><p>这个是目前最直接的只需要注册就能用的评论系统</p><h2 id="第一步：点击上面的言必力进入官网"><a href="#第一步：点击上面的言必力进入官网" class="headerlink" title="第一步：点击上面的言必力进入官网"></a>第一步：点击上面的言必力进入官网</h2><p>点击最上面的安装——————免费—————现在安装</p><p><img src="/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/1.png" alt></p><p>点击来比力注册（QQ邮箱即可注册）————完成注册后可在右上角登录账户—————登录后再次点击免费现在安装</p><p><img src="/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/2.png" alt></p><p>进入此页面后打开左下角的代码管理然后将红色方框中的代码复制下来</p><p><img src="/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/3.png" alt></p><p>打开主题文件的_config.yml用 ctrl+F 搜索 uid  将你复制的代码放在后面就完成了</p><p><img src="/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/4.png" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/04/17/gmvFaYdXM5xPKns.jpg&quot; alt&gt;&lt;/p&gt;
+&lt;!--less--&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo博客添加配置" scheme="https://bet-yc.github.io/categories/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E9%85%8D%E7%BD%AE/"/>
     
     
       <category term="hexo" scheme="https://bet-yc.github.io/tags/hexo/"/>
