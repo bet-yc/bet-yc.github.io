@@ -1333,7 +1333,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffff46;
+  background: #f2ff0b;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1675,9 +1675,9 @@ pre .javascript .function {
   }
 }
 .reading-progress-bar {
-  background: #37c6c0;
+  background: #FF4500;
   display: block;
-  height: 3px;
+  height: 4px;
   left: 0;
   position: fixed;
   width: 0;
@@ -4931,10 +4931,12 @@ span#inline-purple {
   background: #87cefa;
   color: #666;
 }
+/*
+//背景颜色
 body {
-  background: #fffff0;
+  background:   #FFFFF0;
   background-attachment: fixed;
-}
+}*/
 .sidebar {
   background-color: transparent;
 }
