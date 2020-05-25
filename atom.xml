@@ -65,6 +65,30 @@
   </entry>
   
   <entry>
+    <title>hexo雪花特效的js代码</title>
+    <link href="https://bet-yc.github.io/2020/04/28/%E4%B8%8B%E9%9B%AA/"/>
+    <id>https://bet-yc.github.io/2020/04/28/%E4%B8%8B%E9%9B%AA/</id>
+    <published>2020-04-28T07:14:33.691Z</published>
+    <updated>2020-05-03T16:08:56.191Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/04/18/SeCbITOQpFZDEKm.png" alt></p><!--less--><a id="more"></a><h2 id="首先创建一个叫snow-js的文件"><a href="#首先创建一个叫snow-js的文件" class="headerlink" title="首先创建一个叫snow.js的文件"></a>首先创建一个叫snow.js的文件</h2><p>在<span id="inline-green">/themes/next/source/js/src</span>下新建文件snow.js </p><p>没有src文档的话就新建一个。</p><p>将js代码复制到<span id="inline-green">snow.js</span>中</p><p><a href="http://bet-yc.github.io/js/src/snowy.js">snow的js代码</a>全部复制下来代码很长所以没有放在文章中</p><h2 id="修改-layout-swig"><a href="#修改-layout-swig" class="headerlink" title="修改_layout.swig"></a>修改_layout.swig</h2><p>在<span id="inline-green">\themes\next\layout_layout.swig</span>的末尾添加：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--下雪--&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/js/src/snowy.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;style <span class="built_in">type</span>=<span class="string">"text/css"</span>&gt;</span><br><span class="line">.snow-container&#123;position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100001;&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;div class=<span class="string">"snow-container"</span>&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure><h2 id="最后一步，部署完成后打开你的网站点击一下就能看到效果了"><a href="#最后一步，部署完成后打开你的网站点击一下就能看到效果了" class="headerlink" title="最后一步，部署完成后打开你的网站点击一下就能看到效果了"></a>最后一步，部署完成后打开你的网站点击一下就能看到效果了</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure><p>操作过程中遇到不能解决的问题请删除上述所添加的指令即可<br>或在下方留言联系</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/04/18/SeCbITOQpFZDEKm.png&quot; alt&gt;&lt;/p&gt;
+&lt;!--less--&gt;
+    
+    </summary>
+    
+    
+      <category term="网页雪花飘落特效" scheme="https://bet-yc.github.io/categories/%E7%BD%91%E9%A1%B5%E9%9B%AA%E8%8A%B1%E9%A3%98%E8%90%BD%E7%89%B9%E6%95%88/"/>
+    
+    
+      <category term="hexo" scheme="https://bet-yc.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo添加来比力评论</title>
     <link href="https://bet-yc.github.io/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/"/>
     <id>https://bet-yc.github.io/2020/04/28/hexo%E6%B7%BB%E5%8A%A0%E6%9D%A5%E6%AF%94%E5%8A%9B%E8%AF%84%E8%AE%BA/</id>
@@ -76,30 +100,6 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/04/17/gmvFaYdXM5xPKns.jpg&quot; alt&gt;&lt;/p&gt;
-&lt;!--less--&gt;
-    
-    </summary>
-    
-    
-      <category term="hexo博客添加配置" scheme="https://bet-yc.github.io/categories/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E9%85%8D%E7%BD%AE/"/>
-    
-    
-      <category term="hexo" scheme="https://bet-yc.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo添加live2d动画人物</title>
-    <link href="https://bet-yc.github.io/2020/04/28/%E6%B7%BB%E5%8A%A0live2d%E5%8A%A8%E7%94%BB%E4%BA%BA%E7%89%A9/"/>
-    <id>https://bet-yc.github.io/2020/04/28/%E6%B7%BB%E5%8A%A0live2d%E5%8A%A8%E7%94%BB%E4%BA%BA%E7%89%A9/</id>
-    <published>2020-04-28T07:14:33.691Z</published>
-    <updated>2020-05-03T16:08:13.207Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/04/17/YcoRzTPS25AhbOu.png" alt></p><!--less--><a id="more"></a><blockquote class="blockquote-center"><font size="5"> 添加live2d看板娘 </font>   </blockquote><h1 id="添加live2d看板娘"><a href="#添加live2d看板娘" class="headerlink" title="添加live2d看板娘"></a>添加live2d看板娘</h1><h2 id="安装live2d"><a href="#安装live2d" class="headerlink" title="安装live2d"></a>安装live2d</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure><h2 id="打开live2d"><a href="#打开live2d" class="headerlink" title="打开live2d"></a>打开live2d</h2><p>进入网站配置文件_confing.yml内，在最下面添加下面内容</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span></span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-shizuku</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure><h2 id="安装你喜欢的动画模型"><a href="#安装你喜欢的动画模型" class="headerlink" title="安装你喜欢的动画模型"></a>安装你喜欢的动画模型</h2><p>下面是课桌姑娘的安装代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install live2d-widget-model-shizuku</span><br></pre></td></tr></table></figure><p>接着hexo cl &amp;&amp; hexo s 本地右下角就能看到你的看板娘了</p><h2 id="最后想要更换其他样式的人物则需要在下载模型后改动-use："><a href="#最后想要更换其他样式的人物则需要在下载模型后改动-use：" class="headerlink" title="最后想要更换其他样式的人物则需要在下载模型后改动 use："></a>最后想要更换其他样式的人物则需要在下载模型后改动 use：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span></span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: 这里这里改动</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/04/17/YcoRzTPS25AhbOu.png&quot; alt&gt;&lt;/p&gt;
 &lt;!--less--&gt;
     
     </summary>
@@ -161,23 +161,23 @@
   </entry>
   
   <entry>
-    <title>hexo雪花特效的js代码</title>
-    <link href="https://bet-yc.github.io/2020/04/28/%E4%B8%8B%E9%9B%AA/"/>
-    <id>https://bet-yc.github.io/2020/04/28/%E4%B8%8B%E9%9B%AA/</id>
+    <title>hexo添加live2d动画人物</title>
+    <link href="https://bet-yc.github.io/2020/04/28/%E6%B7%BB%E5%8A%A0live2d%E5%8A%A8%E7%94%BB%E4%BA%BA%E7%89%A9/"/>
+    <id>https://bet-yc.github.io/2020/04/28/%E6%B7%BB%E5%8A%A0live2d%E5%8A%A8%E7%94%BB%E4%BA%BA%E7%89%A9/</id>
     <published>2020-04-28T07:14:33.691Z</published>
-    <updated>2020-05-03T16:08:56.191Z</updated>
+    <updated>2020-05-03T16:08:13.207Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/04/18/SeCbITOQpFZDEKm.png" alt></p><!--less--><a id="more"></a><h2 id="首先创建一个叫snow-js的文件"><a href="#首先创建一个叫snow-js的文件" class="headerlink" title="首先创建一个叫snow.js的文件"></a>首先创建一个叫snow.js的文件</h2><p>在<span id="inline-green">/themes/next/source/js/src</span>下新建文件snow.js </p><p>没有src文档的话就新建一个。</p><p>将js代码复制到<span id="inline-green">snow.js</span>中</p><p><a href="http://bet-yc.github.io/js/src/snowy.js">snow的js代码</a>全部复制下来代码很长所以没有放在文章中</p><h2 id="修改-layout-swig"><a href="#修改-layout-swig" class="headerlink" title="修改_layout.swig"></a>修改_layout.swig</h2><p>在<span id="inline-green">\themes\next\layout_layout.swig</span>的末尾添加：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--下雪--&gt;</span><br><span class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"/js/src/snowy.js"</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;style <span class="built_in">type</span>=<span class="string">"text/css"</span>&gt;</span><br><span class="line">.snow-container&#123;position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100001;&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;div class=<span class="string">"snow-container"</span>&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure><h2 id="最后一步，部署完成后打开你的网站点击一下就能看到效果了"><a href="#最后一步，部署完成后打开你的网站点击一下就能看到效果了" class="headerlink" title="最后一步，部署完成后打开你的网站点击一下就能看到效果了"></a>最后一步，部署完成后打开你的网站点击一下就能看到效果了</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure><p>操作过程中遇到不能解决的问题请删除上述所添加的指令即可<br>或在下方留言联系</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/04/17/YcoRzTPS25AhbOu.png" alt></p><!--less--><a id="more"></a><blockquote class="blockquote-center"><font size="5"> 添加live2d看板娘 </font>   </blockquote><h1 id="添加live2d看板娘"><a href="#添加live2d看板娘" class="headerlink" title="添加live2d看板娘"></a>添加live2d看板娘</h1><h2 id="安装live2d"><a href="#安装live2d" class="headerlink" title="安装live2d"></a>安装live2d</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure><h2 id="打开live2d"><a href="#打开live2d" class="headerlink" title="打开live2d"></a>打开live2d</h2><p>进入网站配置文件_confing.yml内，在最下面添加下面内容</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span></span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-shizuku</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure><h2 id="安装你喜欢的动画模型"><a href="#安装你喜欢的动画模型" class="headerlink" title="安装你喜欢的动画模型"></a>安装你喜欢的动画模型</h2><p>下面是课桌姑娘的安装代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install live2d-widget-model-shizuku</span><br></pre></td></tr></table></figure><p>接着hexo cl &amp;&amp; hexo s 本地右下角就能看到你的看板娘了</p><h2 id="最后想要更换其他样式的人物则需要在下载模型后改动-use："><a href="#最后想要更换其他样式的人物则需要在下载模型后改动-use：" class="headerlink" title="最后想要更换其他样式的人物则需要在下载模型后改动 use："></a>最后想要更换其他样式的人物则需要在下载模型后改动 use：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span></span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: 这里这里改动</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/04/18/SeCbITOQpFZDEKm.png&quot; alt&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/04/17/YcoRzTPS25AhbOu.png&quot; alt&gt;&lt;/p&gt;
 &lt;!--less--&gt;
     
     </summary>
     
     
-      <category term="网页雪花飘落特效" scheme="https://bet-yc.github.io/categories/%E7%BD%91%E9%A1%B5%E9%9B%AA%E8%8A%B1%E9%A3%98%E8%90%BD%E7%89%B9%E6%95%88/"/>
+      <category term="hexo博客添加配置" scheme="https://bet-yc.github.io/categories/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E9%85%8D%E7%BD%AE/"/>
     
     
       <category term="hexo" scheme="https://bet-yc.github.io/tags/hexo/"/>
