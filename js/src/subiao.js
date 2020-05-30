@@ -12,7 +12,7 @@
     loop();
   }
   
-  // Bind events that are needed
+ 
   function bindEvents() {
     document.addEventListener('mousemove', onMouseMove);
     document.addEventListener('touchmove', onTouchMove);
@@ -69,17 +69,15 @@
     updateParticles();
   }
   
-  /**
-   * Particles
-   */
-  
+
+
   function Particle() {
 
     this.character = "*";
-    this.lifeSpan = 120; //ms
+    this.lifeSpan = 120; 
     this.initialStyles ={
       "position": "fixed",
-      "top": "0", //必须加
+      "top": "0", 
       "display": "block",
       "pointerEvents": "none",
       "z-index": "10000000",
@@ -87,7 +85,7 @@
       "will-change": "transform"
     };
 
-    // Init, and set properties
+   
     this.init = function(x, y, color) {
 
       this.velocity = {
@@ -122,7 +120,7 @@
   }
   
 
-  // Applies css `properties` to an element.
+
   function applyProperties( target, properties ) {
     for( var key in properties ) {
       target.style[ key ] = properties[ key ];
