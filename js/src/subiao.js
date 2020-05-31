@@ -12,8 +12,8 @@
     loop();
   }
   
- 
-  function bindEvents() {
+
+   function bindEvents() {
     document.addEventListener('mousemove', onMouseMove);
     document.addEventListener('touchmove', onTouchMove);
     document.addEventListener('touchstart', onTouchMove);
